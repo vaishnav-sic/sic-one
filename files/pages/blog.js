@@ -17,7 +17,7 @@ import BlogImage5 from "../assets/images/blog/blog-1-5.jpg";
 import BlogImage6 from "../assets/images/blog/blog-1-6.jpg";
 
 const BlogPage = () => (
-  <Layout pageTitle="Apiton | Blog Page">
+  <Layout pageTitle="SIC | Blog Page">
     <Preloader />
     <Header btnClass="main-nav__btn-two" />
     <MobileMenu />

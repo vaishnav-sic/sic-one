@@ -1,2 +1,2 @@
-# apiton-next
+# sic-one
 a next js template
