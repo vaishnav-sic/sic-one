@@ -54,11 +54,11 @@ const Banner = () => {
               </form>
               <div className="mc-form__response"></div>
               <h3>
-                Manage Your <br /> Project with <br /> Application
+                Best IT Training <br /> And Internships
               </h3>
               <p>
-                Nulla facilisi. Proin felis neque, suscipit egestas erat a{" "}
-                <br /> tincidunt finibus magna consectetur lacus.
+                Get 100% Ready{" "}
+                <br /> for Coding Interview
               </p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
