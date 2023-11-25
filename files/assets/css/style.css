@@ -2575,7 +2575,9 @@ a:visited {
 }
 
 .contact-one__form
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(
+    .input-group-btn
+  ) {
   width: 100%;
 }
 
@@ -4585,3 +4587,19 @@ a:visited {
   line-height: 36px;
   font-weight: 500;
 }
+
+/* =========================Bullet Points Design start=========================  */
+
+/* Add this to your CSS file */
+.bullet-points {
+  list-style-type: square;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.bullet-points li {
+  margin-bottom: 5px;
+  color: rgb(35, 170, 150);
+}
+
+/* =========================Bullet Points Design end=========================  */
