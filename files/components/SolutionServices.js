@@ -12,6 +12,7 @@ const SolutionServices = () => {
         />
         <div className="row">
           <div className="col-lg-3 col-md-6">
+            s
             <div className="service-one__single">
               <div className="service-one__inner">
                 <div className="service-one__circle"></div>

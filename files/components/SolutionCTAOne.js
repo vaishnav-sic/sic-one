@@ -5,7 +5,7 @@ import CtaShape1 from "../assets/images/shapes/cta-1-shape-1.png";
 import CtaShape2 from "../assets/images/shapes/cta-1-shape-2.png";
 import CtaMoc1 from "../assets/images/resources/CodingLaptop.png";
 
-const CTAOne = () => {
+const SolutionCTAOne = () => {
   return (
     <section className="cta-one">
       <img src={CtaShape1} className="cta-one__bg-shape-1" alt="" />
@@ -57,4 +57,4 @@ const CTAOne = () => {
   );
 };
 
-export default CTAOne;
+export default SolutionCTAOne;

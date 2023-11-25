@@ -5,7 +5,7 @@ import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
 import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
 
-const Banner = () => {
+const SolutionBanner = () => {
   const [open, setOpen] = useState({
     isOpen: false,
   });
@@ -86,4 +86,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default SolutionBanner;
