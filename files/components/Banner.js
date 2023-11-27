@@ -3,7 +3,7 @@ import ModalVideo from "react-modal-video";
 
 import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
-import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
+import BannerMoc from "../assets/images/resources/MainPageCoding.png";
 
 const Banner = () => {
   const [open, setOpen] = useState({

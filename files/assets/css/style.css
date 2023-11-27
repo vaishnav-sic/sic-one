@@ -4603,3 +4603,41 @@ a:visited {
 }
 
 /* =========================Bullet Points Design end=========================  */
+/* ===========================PopUp Start ====================================== */
+/* Add this to your CSS file or style block */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.popup p {
+  font-size: 0.8em;
+}
+
+.trophy-image {
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.green-line {
+  width: 0;
+  height: 3px;
+  background-color: #00ff00; /* Green color */
+  margin-top: 10px;
+  animation: extendLine 3s ease-in-out;
+}
+
+@keyframes extendLine {
+  to {
+    width: 100%;
+  }
+}
+
+/* ==============================PopUp end=========================== */
