@@ -11,8 +11,6 @@ const SolutionBanner = () => {
   });
   const [textIndex, setTextIndex] = useState(0);
   const [subTextOptions, setSubTextOptions] = useState([
-    "Training",
-    "Internship",
     "Product",
     "Solution",
   ]);
@@ -69,11 +67,11 @@ const SolutionBanner = () => {
               </form>
               <div className="mc-form__response"></div>
               <h3>
-                Best IT <br />
+                Best Business <br />
                 {subTextOptions[textIndex]}
               </h3>
               <p>
-                Get 100% Ready <br /> for Coding Interview
+                Get Complete Business solution
               </p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>

@@ -25,8 +25,8 @@ const InternVideoOne = () => {
         >
           <BlockTitle
             textAlign="left"
-            paraText="Video Tutorial"
-            titleText={`Watch Now \n Our Video \n Tutorial`}
+            paraText="Python Tutorial"
+            titleText={`Revolution in \n Test Automation`}
           />
         </div>
         <ModalVideo

@@ -73,7 +73,7 @@ const Banner = () => {
                 {subTextOptions[textIndex]}
               </h3>
               <p>
-                Get 100% Ready <br /> for Coding Interview
+                Get 100% Ready for Coding Interview
               </p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>

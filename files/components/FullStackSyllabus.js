@@ -11,7 +11,7 @@ const FullStackSyllabus = (props) => {
       <Container>
         <BlockTitle
           textAlign="center"
-          paraText="Frequently Asked Questions"
+          // paraText="Frequently Asked Questions"
           titleText={`Our Syllabus For \n Full Stack Developement`}
         />
         <div className="accrodion-grp faq-accrodion">

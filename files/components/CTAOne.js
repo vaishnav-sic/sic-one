@@ -19,7 +19,7 @@ const CTAOne = () => {
             <div className="cta-one__content">
               <BlockTitle
                 textAlign="left"
-                paraText="Best Application"
+                paraText="Specialities"
                 titleText={`Get 100% Ready \n For Coding Interviews`}
               />
               <div className="cta-one__text">

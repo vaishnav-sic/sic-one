@@ -11,8 +11,8 @@ const InternSyllabus = (props) => {
       <Container>
         <BlockTitle
           textAlign="center"
-          paraText="Frequently Asked Questions"
-          titleText={`Our Syllabus For \n Python Internship`}
+          // paraText="Frequently Asked Questions"
+          titleText={`Our Syllabus For \n Python Powerhouse`}
         />
         <div className="accrodion-grp faq-accrodion">
           <AccordianItemNew

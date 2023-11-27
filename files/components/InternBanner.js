@@ -57,7 +57,7 @@ const InternBanner = () => {
               Python Powerhouse
               </h3>
               <p>
-              Your Journey<br/> to Coding Excellence
+              Your Journey to Coding Excellence
               </p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>

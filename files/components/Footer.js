@@ -37,9 +37,9 @@ const Footer = () => {
                     <img src={FooterLogo} width="129" alt="" />
                   </a>
                   <p>
-                    Lorem Ipsum is simply dummy text the <br /> printing and
-                    setting industry. Lorm Ipsum
-                    <br /> has been the text ever.
+                    SWASAMVEDYA INTELLIGENCE CENTRE <br /> makes you 100% Job ready
+                    <br /> We also provide Training, Internships, 
+                    <br /> and complete Solutions.
                   </p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container text-center">
-            <p>© copyright 2020 by Layerdrops.com</p>
+            <p>© सर्वहक्कस्वाधीन २०२३ स्वसंवेद्य इंटेलिजन्स सेंटर </p>
           </div>
         </div>
       </footer>

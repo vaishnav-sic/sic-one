@@ -39,7 +39,7 @@ const Solution = () => (
       {/* <Services /> */}
       <SolutionServices />
       {/* <CTAOne /> */}
-      <SolutionCTAOne />
+      {/* <SolutionCTAOne /> */}
       {/* <FunFact /> */}
       {/* <CTATwo />
       <Pricing />
