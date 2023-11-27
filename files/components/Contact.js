@@ -173,15 +173,6 @@ const Contact = () => {
               </div>
             </form>
             <div className="result"></div>
-
-            {/* Pop-up */}
-            {showPopup && (
-              <div className="popup">
-                <p>We will get back to you shortly.</p>
-                <img src={TrophyImage} alt="Trophy" className="trophy-image" />
-                <div className="green-line"></div>
-              </div>
-            )}
           </div>
           <div
             className="col-lg-5 d-flex wow fadeInRight"
