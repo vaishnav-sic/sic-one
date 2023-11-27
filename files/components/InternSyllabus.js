@@ -6,7 +6,7 @@ import faqBG from "../assets/images/shapes/faq-bg-1-1.png";
 
 const InternSyllabus = (props) => {
   return (
-    <section className="faq-one">
+    <section className="faq-one" id="internshipsyllabus">
       <img src={faqBG} className="faq-one__bg-shape-1" alt="" />
       <Container>
         <BlockTitle
