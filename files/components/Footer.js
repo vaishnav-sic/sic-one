@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 import FooterLogo from "../assets/images/SIC_LogoName.svg";
 
@@ -45,53 +47,50 @@ const Footer = () => {
               <div className="col-lg-5">
                 <div className="footer-widget__links-wrap">
                   <div className="footer-widget">
-                    <h3 className="footer-widget__title">Company</h3>
+                    <h3 className="footer-widget__title">Training</h3>
                     <ul className="list-unstyled footer-widget__links-list">
-                      <li>
-                        <a href="#">About</a>
-                      </li>
-                      <li>
-                        <a href="#">Our Team</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact</a>
-                      </li>
-                      <li>
+                    <li>
+                      <Link href="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link href="/#features">Features</Link>
+                    </li>
+                    <li>
+                        <Link href="/#speciality">Speciality</Link>
+                    </li>
+                      {/* <li>
                         <a href="#">Services</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   <div className="footer-widget">
                     <h3 className="footer-widget__title">Explore</h3>
                     <ul className="list-unstyled footer-widget__links-list">
                       <li>
-                        <a href="#">News</a>
+                        <Link href="/internship">Internships</Link>
                       </li>
                       <li>
-                        <a href="#">Features</a>
+                        <Link href="/solution">Solutions</Link>
                       </li>
                       <li>
-                        <a href="#">Download</a>
-                      </li>
-                      <li>
+                        <Link href="/#syllabus">Syllabus</Link>
+                    </li>
+                      {/* <li>
                         <a href="#">Free Trial</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   <div className="footer-widget">
                     <h3 className="footer-widget__title">Links</h3>
                     <ul className="list-unstyled footer-widget__links-list">
                       <li>
-                        <a href="#">Help</a>
+                        <Link href="/internship#internshipsyllabus">Python</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy Policy</a>
+                        <Link href="/#enquire">Enquire</Link>
                       </li>
                       <li>
-                        <a href="#">Terms of Use</a>
-                      </li>
-                      <li>
-                        <a href="#">Services</a>
+                        <a href="#">Terms</a>
                       </li>
                     </ul>
                   </div>

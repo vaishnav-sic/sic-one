@@ -5,7 +5,7 @@ import ContactImage from "../assets/images/resources/contact-1-1.jpg";
 
 const Contact = () => {
   return (
-    <section className="contact-one">
+    <section className="contact-one" id="enquire">
       <img src={ContactBgShape} className="contact-one__bg-shape-1" alt="" />
       <div className="container">
         <div className="row">

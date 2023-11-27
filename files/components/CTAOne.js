@@ -7,7 +7,7 @@ import CtaMoc1 from "../assets/images/resources/CodingLaptop.png";
 
 const CTAOne = () => {
   return (
-    <section className="cta-one">
+    <section className="cta-one" id="speciality">
       <img src={CtaShape1} className="cta-one__bg-shape-1" alt="" />
       <img src={CtaShape2} className="cta-one__bg-shape-2" alt="" />
       <div className="container">
