@@ -16,10 +16,10 @@ const Services = () => {
               <div className="service-one__inner">
                 <div className="service-one__circle"></div>
                 <div className="service-one__icon">
-                  <i className="apton-icon-computer-graphic"></i>
+                  <i className="apton-icon-development"></i>
                 </div>
-                <h3>Post Placement Fees</h3>
-                <p>Pay 50% fees after Placement in your Dream company</p>
+                <h3>Daily & Weekly Follow-up</h3>
+                <p>Consistent Rise: Daily Updates, Weekly Triumphs</p>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Services = () => {
               <div className="service-one__inner">
                 <div className="service-one__circle"></div>
                 <div className="service-one__icon">
-                  <i className="apton-icon-development"></i>
+                  <i className="apton-icon-computer-graphic"></i>
                 </div>
                 <h3>Real-time Projects</h3>
                 <p>Multiple Real-Time projects and Hands-on Internships</p>
