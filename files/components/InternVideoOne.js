@@ -16,13 +16,12 @@ const InternVideoOne = () => {
   return (
     <section className="video-one">
       <div
+        id="going"
         className="container-fluid"
-        style={{ backgroundImage: `url(${videoBG})` }}
-      >
+        style={{ backgroundImage: `url(${videoBG})` }}>
         <div
           className="video-one__content wow fadeInLeft"
-          data-wow-duration="1500ms"
-        >
+          data-wow-duration="1500ms">
           <BlockTitle
             textAlign="left"
             paraText="Python Tutorial"

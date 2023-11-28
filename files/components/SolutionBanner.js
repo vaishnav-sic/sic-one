@@ -3,17 +3,14 @@ import ModalVideo from "react-modal-video";
 
 import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
-import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
+import BannerMoc from "../assets/images/resources/Solution.png";
 
 const SolutionBanner = () => {
   const [open, setOpen] = useState({
     isOpen: false,
   });
   const [textIndex, setTextIndex] = useState(0);
-  const [subTextOptions, setSubTextOptions] = useState([
-    "Product",
-    "Solution",
-  ]);
+  const [subTextOptions, setSubTextOptions] = useState(["Product", "Solution"]);
 
   const openModal = () => {
     setOpen({
@@ -60,19 +57,19 @@ const SolutionBanner = () => {
               <form
                 className="banner-one__mc-form mc-form"
                 data-url="MAILCHIMP__POPUP__FORM__URL">
-                <input type="text" name="email" placeholder="Email address" />
-                <button type="submit" className="thm-btn banner-one__mc-btn">
-                  <span>Free Trial</span>
-                </button>
+                <div className="center-text">
+                  <h5>Seeking In-Depth Information?</h5>
+                </div>
+                <a href="/#enquire" className="thm-btn banner-one__btn">
+                  <span>Dive In!</span>
+                </a>
               </form>
               <div className="mc-form__response"></div>
               <h3>
                 Best Business <br />
                 {subTextOptions[textIndex]}
               </h3>
-              <p>
-                Get Complete Business solution
-              </p>
+              <p>Get Complete Business solution</p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
               </a>

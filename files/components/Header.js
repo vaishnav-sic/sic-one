@@ -47,8 +47,7 @@ const HeaderHome = (props) => {
     <header
       className={`site-header-one stricky  ${props.extraClassName} ${
         sticky === true ? "stricky-fixed stricked-menu" : " "
-      }`}
-    >
+      }`}>
       <div className="container-fluid">
         <div className="site-header-one__logo">
           <a href="/">
@@ -62,8 +61,8 @@ const HeaderHome = (props) => {
           <NavLinks />
         </div>
         <div className="main-nav__right">
-          <a href="#" className={`thm-btn ${props.btnClass}`}>
-            <span>Download App</span>
+          <a href="/#enquire" className={`thm-btn ${props.btnClass}`}>
+            <span>Get In Touch</span>
           </a>
         </div>
       </div>
