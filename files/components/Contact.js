@@ -234,11 +234,12 @@ const Contact = () => {
                   )}
                 </div>
                 <div className="col-lg-12">
-                  <textarea
+                  <input
+                    type="text"
                     placeholder="Write Message"
                     name="message"
                     value={formData.message}
-                    onChange={handleInputChange}></textarea>
+                    onChange={handleInputChange}></input>
                 </div>
                 <div className="col-lg-12 text-left">
                   <button type="submit" className="thm-btn contact-one__btn">
