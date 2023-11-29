@@ -5061,4 +5061,14 @@ label input[type="checkbox"] {
 .center-text1 h4 {
   color: white;
 }
+.para-sh {
+  margin: 0;
+  line-height: 1em;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--thm-base);
+  position: relative;
+  white-space: pre-line;
+  top: -3px;
+}
 /* ===========================error msg end======================== */

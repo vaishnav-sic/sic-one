@@ -37,7 +37,7 @@ const SolutionBanner = () => {
         <ModalVideo
           channel="youtube"
           isOpen={open.isOpen}
-          videoId="Kl5B6MBAntI"
+          videoId="AxggwtFhVIM"
           onClose={() => setOpen({ isOpen: false })}
         />
         <div onClick={openModal} className="banner-one__video video-popup">
@@ -67,7 +67,7 @@ const SolutionBanner = () => {
               <div className="mc-form__response"></div>
               <h3>
                 Best Business <br />
-                {subTextOptions[textIndex]}
+                <div className="red-text">{subTextOptions[textIndex]}</div>
               </h3>
               <p>Get Complete Business solution</p>
               <a href="#" className="thm-btn banner-one__btn">

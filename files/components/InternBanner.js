@@ -57,7 +57,9 @@ const InternBanner = () => {
                 </a>
               </form>
               <div className="mc-form__response"></div>
-              <h3>Python Powerhouse</h3>
+              <h3>
+                Python <div className="red-text">Powerhouse</div>
+              </h3>
               <p>Your Journey to Coding Excellence</p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
