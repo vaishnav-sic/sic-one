@@ -33,19 +33,19 @@ const HomePage = () => (
       <Banner />
       <Services />
       <CTAOne />
-      <FunFact />
+      {/* <FunFact />
       <CTATwo />
       <Pricing />
       <Testimonials />
       <Clients />
       <Team />
       <VideoOne />
-      <AppScreen />
+      <AppScreen /> */}
       {/* <FAQ /> */}
       <FullStackSyllabus />
-      <BlogHome />
+      {/* <BlogHome /> */}
       <Contact />
-      <CTAThree />
+      {/* <CTAThree /> */}
       <Footer />
     </Layout>
   </div>

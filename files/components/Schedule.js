@@ -3,9 +3,9 @@ import BlockTitle from "./BlockTitle";
 
 import CtaShape1 from "../assets/images/shapes/cta-1-shape-1.png";
 import CtaShape2 from "../assets/images/shapes/cta-1-shape-2.png";
-import CtaMoc1 from "../assets/images/resources/CodingLaptop.png";
+import CtaMoc1 from "../assets/images/resources/Schedule.png";
 
-const CTAOne = () => {
+const Schedule = () => {
   return (
     <section className="cta-one" id="speciality">
       <img src={CtaShape1} className="cta-one__bg-shape-1" alt="" />
@@ -19,32 +19,49 @@ const CTAOne = () => {
             <div className="cta-one__content">
               <BlockTitle
                 textAlign="left"
-                paraText="Specialities"
-                titleText={`Get 100% Ready \n For Coding Interviews`}
+                paraText="Schedule"
+                titleText={`Practical Based Learnings on Industry trends experience`}
               />
               <div className="cta-one__text">
                 <p>
-                  Master Full Stack Web Development <br />
-                  Acquire Essential Skills for Today's Industry Excellence!
+                  Live classes 1 Hr per day.
+                  <br />
+                  Evaluation using google classroom
                 </p>
               </div>
               <ul className="list-unstyled cta-one__list">
                 <li>
                   <i className="fa fa-check-circle"></i>
-                  Guaranteed Support for Successful Job Placement
+                  <p className="para-sh">PHASE 01</p>
+                  <div>
+                    10 days learning 10 days for revision, projects and
+                    submissions
+                  </div>
                 </li>
+                <br />
                 <li>
                   <i className="fa fa-check-circle"></i>
-                  Multiple Real-Time projects and Hands-on Internships
+                  <p className="para-sh">PHASE 02</p>{" "}
+                  <div>
+                    5 days learning 5 days for revision, projects and
+                    submissions
+                  </div>
                 </li>
+                <br />
                 <li>
                   <i className="fa fa-check-circle"></i>
-                  Endless Mock Interviews with Expert Guidance
+                  <p className="para-sh">PHASE 03</p>{" "}
+                  <div>
+                    5 days Revision 5 days final project submissions and
+                    evaluations
+                  </div>
                 </li>
+                <br />
                 <li>
                   <i className="fa fa-check-circle"></i>
-                  Sharpen Your Problem-Solving Instincts!
+                  <p className="para-sh">TOTAL : 2 Months</p>
                 </li>
+                <br />
               </ul>
               <a href="#" className="thm-btn cta-one__btn">
                 <span>Discover More</span>
@@ -57,4 +74,4 @@ const CTAOne = () => {
   );
 };
 
-export default CTAOne;
+export default Schedule;

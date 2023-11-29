@@ -14,14 +14,12 @@ const Footer = () => {
               <i className="apton-icon-mail"></i>
             </div>
             <form action="#" className="mailchimp-one__form">
-              <input
-                type="text"
-                placeholder="Enter your email address"
-                name="email"
-              />
-              <button className="thm-btn mailchimp-one__btn" type="submit">
-                <span>Register Now</span>
-              </button>
+              <div className="center-text1">
+                <h4>Seeking In-Depth Information?</h4>
+              </div>
+              <a href="/#enquire" className="thm-btn banner-one__btn">
+                <span>Dive In!</span>
+              </a>
             </form>
           </div>
         </div>
@@ -37,9 +35,10 @@ const Footer = () => {
                     <img src={FooterLogo} width="129" alt="" />
                   </a>
                   <p>
-                    Lorem Ipsum is simply dummy text the <br /> printing and
-                    setting industry. Lorm Ipsum
-                    <br /> has been the text ever.
+                    SWASAMVEDYA INTELLIGENCE CENTRE <br /> makes you 100% Job
+                    ready
+                    <br /> We also provide Training, Internships,
+                    <br /> and complete Solutions.
                   </p>
                 </div>
               </div>
@@ -49,15 +48,15 @@ const Footer = () => {
                   <div className="footer-widget">
                     <h3 className="footer-widget__title">Training</h3>
                     <ul className="list-unstyled footer-widget__links-list">
-                    <li>
-                      <Link href="/">Home</Link>
-                    </li>
-                    <li>
+                      <li>
+                        <Link href="/">Home</Link>
+                      </li>
+                      <li>
                         <Link href="/#features">Features</Link>
-                    </li>
-                    <li>
+                      </li>
+                      <li>
                         <Link href="/#speciality">Speciality</Link>
-                    </li>
+                      </li>
                       {/* <li>
                         <a href="#">Services</a>
                       </li> */}
@@ -74,7 +73,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <Link href="/#syllabus">Syllabus</Link>
-                    </li>
+                      </li>
                       {/* <li>
                         <a href="#">Free Trial</a>
                       </li> */}
@@ -84,7 +83,9 @@ const Footer = () => {
                     <h3 className="footer-widget__title">Links</h3>
                     <ul className="list-unstyled footer-widget__links-list">
                       <li>
-                        <Link href="/internship#internshipsyllabus">Python</Link>
+                        <Link href="/internship#internshipsyllabus">
+                          Python
+                        </Link>
                       </li>
                       <li>
                         <Link href="/#enquire">Enquire</Link>
@@ -99,16 +100,16 @@ const Footer = () => {
               <div className="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center">
                 <div className="footer-widget">
                   <div className="footer-widget__social">
-                    <a href="#">
+                    <a>
                       <i className="fab fa-facebook-square"></i>
                     </a>
-                    <a href="#">
+                    <a>
                       <i className="fab fa-twitter"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://instagram.com/sic.swasamvedya?igshid=MzMyNGUyNmU2YQ==">
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a>
                       <i className="fab fa-pinterest-p"></i>
                     </a>
                   </div>
@@ -119,7 +120,7 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container text-center">
-            <p>© copyright 2020 by Layerdrops.com</p>
+            <p>© सर्वहक्कस्वाधीन २०२३ स्वसंवेद्य इंटेलिजन्स सेंटर </p>
           </div>
         </div>
       </footer>

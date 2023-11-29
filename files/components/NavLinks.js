@@ -63,7 +63,7 @@ const NavLinks = () => {
           Screens
         </ScrollLink>
       </li> */}
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="/blog">
           <>
             News
@@ -78,7 +78,7 @@ const NavLinks = () => {
             <Link href="/blog-post">News Details</Link>
           </li>
         </ul>
-      </li>
+      </li> */}
     </ul>
   );
 };

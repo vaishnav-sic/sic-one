@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import { db } from "../firebaseConfig";
+import { collection, addDoc } from "firebase/firestore";
 import BlockTitle from "./BlockTitle";
 import ContactBgShape from "../assets/images/shapes/contact-bg-shape-1-1.png";
-import ContactImage from "../assets/images/resources/contact-1-1.jpg";
-import { db } from "../firebaseConfig";
-import { collection, getDocs, addDoc } from "firebase/firestore";
- 
+import ContactImage from "../assets/images/resources/ContactUs.png";
+import TrophyImage from "../assets/images/SIC_Logo.svg";
+
 const Contact = () => {
+  const [showPopup, setShowPopup] = useState(false);
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -15,23 +17,90 @@ const Contact = () => {
     passoutYear: "",
     message: "",
   });
- 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
+  const [errors, setErrors] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    graduation: "",
+    passoutYear: "",
+  });
+
+  const validateEmail = (email) => {
+    const emailRegex = /\b[A-Za-z0-9._%+-]+@gmail\.com\b/;
+    return emailRegex.test(email);
   };
- 
+
+  const validatePhone = (phone) => {
+    const phoneRegex = /^\d{10}$/;
+    return phoneRegex.test(phone);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("message sent ")
- 
+
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleDateString();
+    const formattedTime = currentDate.toLocaleTimeString();
+    const dateTime = `${formattedDate} ${formattedTime}`;
+
+    const formDataWithDateTime = {
+      ...formData,
+      dateTime: dateTime,
+    };
+
+    // Validation
+    const newErrors = {
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      graduation: "",
+      passoutYear: "",
+    };
+
+    if (formData.firstName.trim() === "") {
+      newErrors.firstName = "First Name is required";
+    }
+
+    if (formData.lastName.trim() === "") {
+      newErrors.lastName = "Last Name is required";
+    }
+
+    if (formData.email.trim() === "") {
+      newErrors.email = "Email is required";
+    } else if (!validateEmail(formData.email)) {
+      newErrors.email = "Invalid email format (must be @gmail.com)";
+    }
+
+    if (formData.phone.trim() === "") {
+      newErrors.phone = "Phone number is required";
+    } else if (!validatePhone(formData.phone)) {
+      newErrors.phone = "Invalid phone number (must be 10 digits)";
+    }
+
+    if (formData.graduation.trim() === "") {
+      newErrors.graduation = "Graduation is required";
+    }
+
+    if (formData.passoutYear.trim() === "") {
+      newErrors.passoutYear = "Passout Year is required";
+    }
+
+    setErrors(newErrors);
+
+    if (Object.values(newErrors).some((error) => error !== "")) {
+      return;
+    }
+
     try {
-      const docRef = await addDoc(collection(db, "EnquiryForm"), formData);
-     
- 
+      const docRef = await addDoc(
+        collection(db, "EnquiryForm"),
+        formDataWithDateTime
+      );
+
+      setShowPopup(true);
+
       setFormData({
         firstName: "",
         lastName: "",
@@ -41,11 +110,28 @@ const Contact = () => {
         passoutYear: "",
         message: "",
       });
+
+      setTimeout(() => {
+        setShowPopup(false);
+      }, 3000);
     } catch (error) {
       console.error("Error adding document: ", error);
     }
   };
- 
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+
+    setErrors((prevErrors) => ({
+      ...prevErrors,
+      [name]: "",
+    }));
+  };
+
   return (
     <section className="contact-one" id="enquire">
       <img src={ContactBgShape} className="contact-one__bg-shape-1" alt="" />
@@ -53,8 +139,8 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-7">
             <form
-              className="contact-form-validated contact-one__form"
-              onSubmit={handleSubmit}>
+              onSubmit={handleSubmit}
+              className="contact-form-validated contact-one__form">
               <BlockTitle
                 textAlign="left"
                 paraText="Contact Now"
@@ -67,10 +153,11 @@ const Contact = () => {
                     placeholder="First Name"
                     name="firstName"
                     value={formData.firstName}
-                    onChange={handleChange}
-                    required
-                    
+                    onChange={handleInputChange}
                   />
+                  {errors.firstName && (
+                    <span className="error-message">{errors.firstName}</span>
+                  )}
                 </div>
                 <div className="col-lg-6">
                   <input
@@ -78,92 +165,81 @@ const Contact = () => {
                     placeholder="Last Name"
                     name="lastName"
                     value={formData.lastName}
-                    onChange={handleChange}
-                    required
+                    onChange={handleInputChange}
                   />
+                  {errors.lastName && (
+                    <span className="error-message">{errors.lastName}</span>
+                  )}
                 </div>
                 <div className="col-lg-6">
                   <input
                     type="text"
-                    placeholder="E-mail"
+                    placeholder="Email Address"
                     name="email"
                     value={formData.email}
-                    onChange={handleChange}
-                    required
-                    email
+                    onChange={handleInputChange}
                   />
+                  {errors.email && (
+                    <span className="error-message">{errors.email}</span>
+                  )}
                 </div>
                 <div className="col-lg-6">
                   <input
                     type="text"
-                    placeholder="Phone"
+                    placeholder="Phone Number"
                     name="phone"
                     value={formData.phone}
-                    onChange={handleChange}
-                    required
-                    
+                    onChange={handleInputChange}
                   />
+                  {errors.phone && (
+                    <span className="error-message">{errors.phone}</span>
+                  )}
                 </div>
                 <div className="col-lg-6">
-                  {/* <input
-                    type="text"
-                    placeholder="Graduation in"
+                  <select
                     name="graduation"
                     value={formData.graduation}
-                    onChange={handleChange}
-                  /> */}
-                  <select
-                  required
-                    name="graduation"
-                    onChange={handleChange}
-                     placeholder="Graduation"
-                  >
-                    <option defaultValue="" selected>Graduation in</option>
-                    <option value= "BE(CS & IT)">BE (CS & IT)</option>
-                    <option value= "BE(Other)">  BE(Other) </option>
-                    <option value= "BCA">BCA</option>
-                    <option value= "MCA">MCA</option>
-                    <option value= "BCS">BCS</option>
-                    <option value= "MCS">MCS</option>
-                    <option value= "BSC">BSC</option>
-                    <option value= "Other">other</option>
-                    
+                    onChange={handleInputChange}>
+                    <option value="">Select Graduation</option>
+                    <option value="BE(CS/IT)">BE(CS/IT)</option>
+                    <option value="BE(other)">BE(other)</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="BCS">BCS</option>
+                    <option value="MCS">MCS</option>
+                    <option value="BSC">BSC</option>
+                    <option value="OTHER">OTHER</option>
                   </select>
+                  {errors.graduation && (
+                    <span className="error-message">{errors.graduation}</span>
+                  )}
                 </div>
                 <div className="col-lg-6">
-                  {/* <input
-                    type="text"
-                    placeholder="Passout year"
-                    name="passoutYear"
-                    value={formData.passoutYear}
-                    onChange={handleChange}
-                  /> */}
-
                   <select
                     name="passoutYear"
-                    onChange={handleChange}
-                     
-                  >
-                    <option defaultValue="" selected>Passout Year</option>
-                    <option value= {2019}>2019</option>
-                    <option value= {2020}>2020</option>
-                    <option value= {2021}>2021</option>
-                    <option value= {2022}>2022</option>
-                    <option value= {2023}>2023</option>
-                    <option value= {2024}>2024</option>
-                    <option value= {2015}>2025</option>
-                    <option value= {2016}>2026</option>
-                    <option value= "other">other</option>
-                    
+                    value={formData.passoutYear}
+                    onChange={handleInputChange}>
+                    <option value="">Select Passout Year</option>
+                    {Array.from({ length: 8 }, (_, i) => 2019 + i).map(
+                      (year) => (
+                        <option key={year} value={year}>
+                          {year}
+                        </option>
+                      )
+                    )}
+                    <option value="OTHER">Other</option>
                   </select>
-                  
+                  {errors.passoutYear && (
+                    <span className="error-message">{errors.passoutYear}</span>
+                  )}
                 </div>
                 <div className="col-lg-12">
-                  <textarea
-                    placeholder="Message"
+                  <input
+                    type="text"
+                    placeholder="Write Message"
                     name="message"
                     value={formData.message}
-                    onChange={handleChange}></textarea>
+                    onChange={handleInputChange}></input>
                 </div>
                 <div className="col-lg-12 text-left">
                   <button type="submit" className="thm-btn contact-one__btn">
@@ -173,6 +249,15 @@ const Contact = () => {
               </div>
             </form>
             <div className="result"></div>
+
+            {/* Pop-up */}
+            {showPopup && (
+              <div className="popup">
+                <p>We will get back to you shortly.</p>
+                <img src={TrophyImage} alt="Trophy" className="trophy-image" />
+                <div className="green-line"></div>
+              </div>
+            )}
           </div>
           <div
             className="col-lg-5 d-flex wow fadeInRight"
@@ -188,5 +273,5 @@ const Contact = () => {
     </section>
   );
 };
- 
+
 export default Contact;

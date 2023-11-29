@@ -3,7 +3,7 @@ import ModalVideo from "react-modal-video";
 
 import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
-import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
+import BannerMoc from "../assets/images/resources/Internship.png";
 
 const InternBanner = () => {
   const [open, setOpen] = useState({
@@ -13,6 +13,10 @@ const InternBanner = () => {
     setOpen({
       isOpen: true,
     });
+    const goElement = document.getElementById("going");
+    if (goElement) {
+      goElement.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -20,8 +24,7 @@ const InternBanner = () => {
       <img src={BannerShape} className="banner-one__bg-shape-1" alt="" />
       <div
         className="banner-one__bg"
-        style={{ backgroundImage: `url(${BannerBG})` }}
-      ></div>
+        style={{ backgroundImage: `url(${BannerBG})` }}></div>
       <div className="container">
         {/* <ModalVideo
           channel="youtube"
@@ -45,20 +48,19 @@ const InternBanner = () => {
             <div className="banner-one__content">
               <form
                 className="banner-one__mc-form mc-form"
-                data-url="MAILCHIMP__POPUP__FORM__URL"
-              >
-                <input type="text" name="email" placeholder="Email address" />
-                <button type="submit" className="thm-btn banner-one__mc-btn">
-                  <span>Free Trial</span>
-                </button>
+                data-url="MAILCHIMP__POPUP__FORM__URL">
+                <div className="center-text">
+                  <h5>Seeking In-Depth Information?</h5>
+                </div>
+                <a href="/#enquire" className="thm-btn banner-one__btn">
+                  <span>Dive In!</span>
+                </a>
               </form>
               <div className="mc-form__response"></div>
               <h3>
-              Python Powerhouse
+                Python <div className="red-text">Powerhouse</div>
               </h3>
-              <p>
-              Your Journey<br/> to Coding Excellence
-              </p>
+              <p>Your Journey to Coding Excellence</p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
               </a>

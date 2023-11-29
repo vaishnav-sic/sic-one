@@ -3,7 +3,7 @@ import ModalVideo from "react-modal-video";
 
 import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
-import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
+import BannerMoc from "../assets/images/resources/HomePageLaptop.png";
 
 const Banner = () => {
   const [open, setOpen] = useState({
@@ -25,11 +25,10 @@ const Banner = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      // Update text index in a circular manner
       setTextIndex((prevIndex) => (prevIndex + 1) % subTextOptions.length);
     }, 2000);
 
-    return () => clearInterval(intervalId); // Cleanup the interval on component unmount
+    return () => clearInterval(intervalId);
   }, [subTextOptions.length]);
 
   return (
@@ -42,7 +41,7 @@ const Banner = () => {
         <ModalVideo
           channel="youtube"
           isOpen={open.isOpen}
-          videoId="Kl5B6MBAntI"
+          videoId="AxggwtFhVIM"
           onClose={() => setOpen({ isOpen: false })}
         />
         <div onClick={openModal} className="banner-one__video video-popup">
@@ -62,20 +61,20 @@ const Banner = () => {
               <form
                 className="banner-one__mc-form mc-form"
                 data-url="MAILCHIMP__POPUP__FORM__URL">
-                <input type="text" name="email" placeholder="Email address" />
-                <button type="submit" className="thm-btn banner-one__mc-btn">
-                  <span>Free Trial</span>
-                </button>
+                <div className="center-text">
+                  <h5>Seeking In-Depth Information?</h5>
+                </div>
+                <a href="#enquire" className="thm-btn banner-one__btn">
+                  <span>Dive In!</span>
+                </a>
               </form>
               <div className="mc-form__response"></div>
               <h3>
                 Best IT <br />
-                {subTextOptions[textIndex]}
+                <div className="red-text">{subTextOptions[textIndex]}</div>
               </h3>
-              <p>
-                Get 100% Ready <br /> for Coding Interview
-              </p>
-              <a href="#" className="thm-btn banner-one__btn">
+              <p>Get 100% Ready for Coding Interview</p>
+              <a href="#enquire" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
               </a>
             </div>
