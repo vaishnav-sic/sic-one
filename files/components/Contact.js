@@ -3,7 +3,7 @@ import { db } from "../firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
 import BlockTitle from "./BlockTitle";
 import ContactBgShape from "../assets/images/shapes/contact-bg-shape-1-1.png";
-import ContactImage from "../assets/images/resources/ContactUSnew.png";
+import ContactImage from "../assets/images/resources/ContactUs.png";
 import TrophyImage from "../assets/images/SIC_Logo.svg";
 
 const Contact = () => {
