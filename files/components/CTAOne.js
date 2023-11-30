@@ -30,20 +30,48 @@ const CTAOne = () => {
               </div>
               <ul className="list-unstyled cta-one__list">
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  Guaranteed Support for Successful Job Placement
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">
+                    Guaranteed Support for Successful Job Placement
+                  </span>
                 </li>
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  Multiple Real-Time projects and Hands-on Internships
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">
+                    Multiple Real-Time projects and Hands-on Internships
+                  </span>
                 </li>
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  Endless Mock Interviews with Expert Guidance
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">
+                    Endless Mock Interviews with Expert Guidance
+                  </span>
                 </li>
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  Sharpen Your Problem-Solving Instincts!
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">
+                    Sharpen Your Problem-Solving Instincts!
+                  </span>
                 </li>
               </ul>
               <a href="#" className="thm-btn cta-one__btn">

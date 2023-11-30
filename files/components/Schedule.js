@@ -31,35 +31,52 @@ const Schedule = () => {
               </div>
               <ul className="list-unstyled cta-one__list">
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  <p className="para-sh">PHASE 01</p>
-                  <div>
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">
                     10 days learning 10 days for revision, projects and
                     submissions
-                  </div>
+                  </span>
                 </li>
                 <br />
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  <p className="para-sh">PHASE 02</p>{" "}
-                  <div>
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">
                     5 days learning 5 days for revision, projects and
                     submissions
-                  </div>
+                  </span>
                 </li>
                 <br />
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  <p className="para-sh">PHASE 03</p>{" "}
-                  <div>
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">
                     5 days Revision 5 days final project submissions and
                     evaluations
-                  </div>
+                  </span>
                 </li>
                 <br />
                 <li>
-                  <i className="fa fa-check-circle"></i>
-                  <p className="para-sh">TOTAL : 2 Months</p>
+                  <span className="highlight">
+                    <strong style={{ color: "red" }}>
+                      <i className="fa fa-check-circle"></i>
+                      &nbsp;&nbsp;
+                    </strong>
+                  </span>
+                  <span className="highlight">TOTAL : 2 Months</span>
                 </li>
                 <br />
               </ul>

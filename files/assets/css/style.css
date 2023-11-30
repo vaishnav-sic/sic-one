@@ -2870,6 +2870,7 @@ a:visited {
 .cta-one__moc img {
   -webkit-animation: ImgBounce 5s ease-in-out 0s infinite alternate;
   animation: ImgBounce 5s ease-in-out 0s infinite alternate;
+  padding-left: 110px;
 }
 
 .cta-one__content .block-title {
