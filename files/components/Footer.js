@@ -100,7 +100,7 @@ const Footer = () => {
               <div className="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center">
                 <div className="footer-widget">
                   <div className="footer-widget__social">
-                    <a href="https://api.whatsapp.com/send?phone=918087144098">
+                    <a href="https://api.whatsapp.com/send?phone=918381036632">
                       <i className="fab fa-whatsapp"></i>
                     </a>
                     <a href="https://in.linkedin.com/">
@@ -109,7 +109,7 @@ const Footer = () => {
                     <a href="https://instagram.com/sic.swasamvedya?igshid=MzMyNGUyNmU2YQ==">
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="www.goole.com">
+                    <a href="www.google.com">
                       <i className="fab fa-google"></i>
                     </a>
                   </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import MobileMenu from "../components/MobileMenu";
+import PythonProject from "../components/PythonProject";
 import PythonBanner from "../components/PythonBanner";
 import PythonServices from "../components/PythonServices";
 import PythonVideoOne from "../components/PythonVideoOne";
@@ -16,9 +18,10 @@ const internship = () => {
           btnClass="main-nav__btn"
           extraClassName="site-header-one__fixed-top"
         />
+        <MobileMenu />
         <PythonBanner />
         <PythonServices />
-
+        <PythonProject />
         <PythonVideoOne />
         <PythonSyllabus />
         <Schedule />

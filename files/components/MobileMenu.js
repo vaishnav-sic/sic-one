@@ -22,21 +22,22 @@ const MobileMenu = () => {
         <div className="side-menu__sep"></div>
         <div className="side-menu__content">
           <p>
-            Lorem Ipsum is simply dummy text the printing and setting industry.
-            Lorm Ipsum has been the industry's stanard dummy text ever.
+            SWASAMVEDYA INTELLIGENCE CENTRE
+            SIC
+            Know Your SELF
           </p>
           <p>
-            <a href="mailto:needhelp@apton.com">needhelp@apton.com</a> <br />
-            <a href="tel:888-999-0000">888 999 0000</a>
+            <a href="mailto:info@swasamvedya.com">info@swasamvedya.com</a> <br />
+            <a href="tel:8381036632">+918381036632</a>
           </p>
           <div className="side-menu__social">
-            <a href="#">
-              <i className="fab fa-facebook-square"></i>
+            <a href="https://api.whatsapp.com/send?phone=918381036632">
+              <i className="fab fa-whatsapp"></i>
             </a>
-            <a href="#">
-              <i className="fab fa-twitter"></i>
+            <a href="https://in.linkedin.com/">
+              <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#">
+            <a href="https://instagram.com/sic.swasamvedya?igshid=MzMyNGUyNmU2YQ==">
               <i className="fab fa-instagram"></i>
             </a>
             <a href="#">

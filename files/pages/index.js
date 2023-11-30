@@ -19,7 +19,6 @@ import FAQ from "../components/FAQ";
 import Clients from "../components/Clients";
 import Testimonials from "../components/Testimonials";
 import FullStackSyllabus from "../components/FullStackSyllabus";
-import ProjectDemo from "../components/ProjectDemo";
 
 const HomePage = () => (
   <div>
@@ -34,7 +33,6 @@ const HomePage = () => (
       <Banner />
       <Services />
       <CTAOne />
-      <ProjectDemo />
       {/* <FunFact />
       <CTATwo />
       <Pricing />

@@ -1,7 +1,7 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
 
-const CTAOne = () => {
+const PythonProject = () => {
   return (
     <section className="cta-one" id="speciality">
       <div className="container">
@@ -10,7 +10,7 @@ const CTAOne = () => {
             <div className="cta-one__content">
               <BlockTitle
                 textAlign="left"
-                paraText="10 Major Projects"
+                paraText="Master These 10 Major Projects Upon Completion Of Course "
                 titleText={`Explore and Master Essential Coding Projects`}
               />
               <div className="cta-one__text">
@@ -154,4 +154,4 @@ const CTAOne = () => {
   );
 };
 
-export default CTAOne;
+export default PythonProject;
