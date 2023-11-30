@@ -30,7 +30,6 @@ const HeaderHome = (props) => {
         e.preventDefault();
       });
 
-    //Close Mobile Menu
     let sideMenuCloser = document.querySelectorAll(
       ".side-menu__close-btn, .side-menu__block-overlay"
     );

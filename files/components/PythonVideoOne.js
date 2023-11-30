@@ -3,7 +3,7 @@ import ModalVideo from "react-modal-video";
 import BlockTitle from "./BlockTitle";
 import videoBG from "../assets/images/resources/video-bg-1-1.jpg";
 
-const InternVideoOne = () => {
+const PythonVideoOne = () => {
   const [open, setOpen] = useState({
     isOpen: false,
   });
@@ -41,4 +41,4 @@ const InternVideoOne = () => {
     </section>
   );
 };
-export default InternVideoOne;
+export default PythonVideoOne;

@@ -100,17 +100,17 @@ const Footer = () => {
               <div className="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center">
                 <div className="footer-widget">
                   <div className="footer-widget__social">
-                    <a>
-                      <i className="fab fa-facebook-square"></i>
+                    <a href="https://api.whatsapp.com/send?phone=918381036632">
+                      <i className="fab fa-whatsapp"></i>
                     </a>
-                    <a>
-                      <i className="fab fa-twitter"></i>
+                    <a href="https://in.linkedin.com/">
+                      <i className="fab fa-linkedin"></i>
                     </a>
                     <a href="https://instagram.com/sic.swasamvedya?igshid=MzMyNGUyNmU2YQ==">
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a>
-                      <i className="fab fa-pinterest-p"></i>
+                    <a href="#">
+                      <i className="fab fa-google"></i>
                     </a>
                   </div>
                 </div>
