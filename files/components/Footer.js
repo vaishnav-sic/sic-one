@@ -109,7 +109,7 @@ const Footer = () => {
                     <a href="https://instagram.com/sic.swasamvedya?igshid=MzMyNGUyNmU2YQ==">
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="www.google.com">
+                    <a href="#">
                       <i className="fab fa-google"></i>
                     </a>
                   </div>
