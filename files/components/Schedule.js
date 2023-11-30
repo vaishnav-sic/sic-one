@@ -34,7 +34,7 @@ const Schedule = () => {
                   <span className="highlight">
                     <strong style={{ color: "red" }}>
                       <i className="fa fa-check-circle"></i>
-                      &nbsp;&nbsp;
+                      &nbsp;&nbsp;PHASE 1 :
                     </strong>
                   </span>
                   <span className="highlight">
@@ -47,7 +47,7 @@ const Schedule = () => {
                   <span className="highlight">
                     <strong style={{ color: "red" }}>
                       <i className="fa fa-check-circle"></i>
-                      &nbsp;&nbsp;
+                      &nbsp;&nbsp;PHASE 2 :
                     </strong>
                   </span>
                   <span className="highlight">
@@ -60,7 +60,7 @@ const Schedule = () => {
                   <span className="highlight">
                     <strong style={{ color: "red" }}>
                       <i className="fa fa-check-circle"></i>
-                      &nbsp;&nbsp;
+                      &nbsp;&nbsp;PHASE 3 :
                     </strong>
                   </span>
                   <span className="highlight">
@@ -73,10 +73,10 @@ const Schedule = () => {
                   <span className="highlight">
                     <strong style={{ color: "red" }}>
                       <i className="fa fa-check-circle"></i>
-                      &nbsp;&nbsp;
+                      &nbsp;&nbsp;TOTAL :
                     </strong>
                   </span>
-                  <span className="highlight">TOTAL : 2 Months</span>
+                  <span className="highlight"> 2 Months</span>
                 </li>
                 <br />
               </ul>

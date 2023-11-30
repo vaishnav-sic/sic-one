@@ -22,8 +22,8 @@ const internship = () => {
         <PythonBanner />
         <PythonServices />
         <PythonProject />
-        <PythonVideoOne />
         <PythonSyllabus />
+        <PythonVideoOne />
         <Schedule />
         <Footer />
       </Layout>

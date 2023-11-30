@@ -11,7 +11,7 @@ const PythonProject = () => {
               <BlockTitle
                 textAlign="left"
                 paraText="Master These 10 Major Projects Upon Completion Of Course "
-                titleText={`Explore and Master Essential Coding Projects`}
+                titleText={`Explore And Master Essential Coding Projects`}
               />
               <div className="cta-one__text">
                 <ul className="list-unstyled cta-one__list">
