@@ -4,7 +4,7 @@ import BlockTitle from "./BlockTitle";
 import AccordianItemNew from "./AccordianItemNew";
 import faqBG from "../assets/images/shapes/faq-bg-1-1.png";
 
-const InternSyllabus = (props) => {
+const PythonSyllabus = (props) => {
   return (
     <section className="faq-one" id="internshipsyllabus">
       <img src={faqBG} className="faq-one__bg-shape-1" alt="" />
@@ -22,7 +22,7 @@ const InternSyllabus = (props) => {
               "Basics : Variables, comments, constants, Built-in Types, Operators, Conversions Coding Challenge on Basics.",
               "Strings : Basics, User Input, Conversions, Converting Types, Concatenation, Slicing, Formats, String Methods. Project: BMI Calculator. Coding Challenge on Strings.",
               "Flow Control : Conditional Statements, Indentation, if/elseif/else, Logical Operators.",
-              "Loops : For Loop, Ranges, Continue-pass-break, While Loop, Walrus Operator Project: Password Generator Coding Challenge on Flow Control and Loops"
+              "Loops : For Loop, Ranges, Continue-pass-break, While Loop, Walrus Operator Project: Password Generator Coding Challenge on Flow Control and Loops",
             ]}
             status={false}
           />
@@ -35,7 +35,7 @@ const InternSyllabus = (props) => {
               "Project: Countries with longest and shortest names.",
               "Tuples, Sets and Dictionaries Tuples operations, methods, Tuples Vs Lists, Sets and Frozen Sets, Time Complexity and Big-O Notation, Creation and Working with Dictionaries, Dictionaries and Set Comprehensions.",
               "Project: Phonetic Alphabe.",
-              "Coding Challenge on Tuple, Set and Dictionaries"
+              "Coding Challenge on Tuple, Set and Dictionaries",
             ]}
             status={false}
           />
@@ -44,11 +44,11 @@ const InternSyllabus = (props) => {
             content="Essential Python topics like Functions, Text file handling, Modules, and Error handling, featuring projects like File Processing and Test Network Connection, with coding challenges for boosting."
             bulletPoints={[
               "Functions in Python : Docstring, Positional and Keyword Arguments, Return, Scopes and Namespaces, Lambda Expression Coding Challenge on Functions.",
-              "Working with Text Files : Opening and Reading files, Absolute and Relative paths, Reading files into a list.", 
+              "Working with Text Files : Opening and Reading files, Absolute and Relative paths, Reading files into a list.",
               "Project: File Processing Coding Challenge on Text Files.",
               "Python Modules, Error and Exception Handling Importing modules and Custom modules, Try Except Else Finally , Best Practices.",
               "Project: Test Network Connection.",
-              "Coding Challenge on Modules, Error and Exception Handling."
+              "Coding Challenge on Modules, Error and Exception Handling.",
             ]}
             status={false}
           />
@@ -57,7 +57,7 @@ const InternSyllabus = (props) => {
             content="Explore Python OOP concepts with coding challenge, followed by a set of 30 coding challenges for enhanced coding proficiency."
             bulletPoints={[
               "Classes and Objects : OOPS Concepts, __init__ and __del__ method, Attributes, Magic Methods Coding Challenge on OOPs.",
-              "Coding Powerhouse Challenges 30 coding challenges."
+              "Coding Powerhouse Challenges 30 coding challenges.",
             ]}
             status={false}
           />
@@ -67,7 +67,7 @@ const InternSyllabus = (props) => {
             bulletPoints={[
               "Built in Modules -  Project: The OS.",
               "Working with CSV, Excel Files - Project: Excel Operations.",
-              "Working with Pandas - Project: Pandas Operation."
+              "Working with Pandas - Project: Pandas Operation.",
             ]}
             status={false}
           />
@@ -77,4 +77,4 @@ const InternSyllabus = (props) => {
   );
 };
 
-export default InternSyllabus;
+export default PythonSyllabus;

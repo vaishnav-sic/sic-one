@@ -100,7 +100,7 @@ const Footer = () => {
               <div className="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center">
                 <div className="footer-widget">
                   <div className="footer-widget__social">
-                    <a href="https://wa.me/918381036632">
+                    <a href="https://api.whatsapp.com/send?phone=918087144098">
                       <i className="fab fa-whatsapp"></i>
                     </a>
                     <a href="https://in.linkedin.com/">

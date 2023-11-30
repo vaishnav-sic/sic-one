@@ -5,10 +5,11 @@ import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
 import BannerMoc from "../assets/images/resources/Internship.png";
 
-const InternBanner = () => {
+const PythonBanner = () => {
   const [open, setOpen] = useState({
     isOpen: false,
   });
+
   const openModal = () => {
     setOpen({
       isOpen: true,
@@ -43,6 +44,24 @@ const InternBanner = () => {
             alt=""
           />
         </div>
+        <div className="whatsapp-icon">
+          <a
+            href="https://api.whatsapp.com/send?phone=918087144098"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i
+              className="fab fa-whatsapp"
+              style={{
+                fontSize: "30px",
+                color: "#25d366",
+                backgroundColor: "#fff",
+                padding: "10px",
+                borderRadius: "50%",
+                boxShadow: "5px 4px 6px rgba(0, 0, 0, 1)",
+                transition: "background-color 0.3s, box-shadow 0.3s",
+              }}></i>
+          </a>
+        </div>
         <div className="row">
           <div className="col-lg-7">
             <div className="banner-one__content">
@@ -72,4 +91,4 @@ const InternBanner = () => {
   );
 };
 
-export default InternBanner;
+export default PythonBanner;

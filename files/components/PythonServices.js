@@ -1,7 +1,7 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
 
-const InternServices = () => {
+const PythonServices = () => {
   return (
     <section className="service-one" id="features">
       <div className="container">
@@ -19,7 +19,9 @@ const InternServices = () => {
                   <i className="apton-icon-computer-graphic"></i>
                 </div>
                 <h3>Internship Certificate</h3>
-                <p>The certificate recognizing an intern's successful completion</p>
+                <p>
+                  The certificate recognizing an intern's successful completion
+                </p>
               </div>
             </div>
           </div>
@@ -31,7 +33,9 @@ const InternServices = () => {
                   <i className="apton-icon-development"></i>
                 </div>
                 <h3>Conceptual Journey</h3>
-                <p>Zero to Hero Grasp on Concepts with Industry Expert Guidance</p>
+                <p>
+                  Zero to Hero Grasp on Concepts with Industry Expert Guidance
+                </p>
               </div>
             </div>
           </div>
@@ -43,7 +47,10 @@ const InternServices = () => {
                   <i className="apton-icon-development1"></i>
                 </div>
                 <h3>Coding Challenges</h3>
-                <p>50+ Comprehensive Coding Challenges to enhance your programming skills </p>
+                <p>
+                  50+ Comprehensive Coding Challenges to enhance your
+                  programming skills{" "}
+                </p>
               </div>
             </div>
           </div>
@@ -55,7 +62,9 @@ const InternServices = () => {
                   <i className="apton-icon-responsive"></i>
                 </div>
                 <h3>Real Time Experience</h3>
-                <p>Experience on 10+ projects for practical skill development</p>
+                <p>
+                  Experience on 10+ projects for practical skill development
+                </p>
               </div>
             </div>
           </div>
@@ -65,4 +74,4 @@ const InternServices = () => {
   );
 };
 
-export default InternServices;
+export default PythonServices;

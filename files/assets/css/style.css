@@ -5050,8 +5050,6 @@ label input[type="checkbox"] {
   color: transparent;
 }
 .center-text {
-  /* text-align: center; */
-
   padding-top: 20px;
 }
 .center-text1 {
@@ -5072,3 +5070,81 @@ label input[type="checkbox"] {
   top: -3px;
 }
 /* ===========================error msg end======================== */
+/*========================Project demo===========================*/
+
+.cta-one {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  position: relative;
+}
+
+.cta-one__content {
+  position: relative;
+}
+
+.cta-one__text {
+  margin-bottom: 30px;
+}
+
+.cta-one__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.cta-one__list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-one__list li .highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.thm-btn.cta-one__btn {
+  background-color: #007bff;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.thm-btn.cta-one__btn:hover {
+  background-color: #0056b3;
+}
+
+.cta-one__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cta-one__list li {
+  flex-basis: calc(50% - 20px);
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .cta-one__list li {
+    flex-basis: 100%;
+  }
+}
+/* =======================WhatsApp logo start======================== */
+
+.whatsapp-icon {
+  position: fixed;
+  top: 120px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* =======================WhatsApp logo end======================== */
