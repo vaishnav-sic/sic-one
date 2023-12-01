@@ -60,7 +60,7 @@ const HeaderHome = (props) => {
           <NavLinks />
         </div>
         <div className="main-nav__right">
-          <a href="/#enquire" className={`thm-btn ${props.btnClass}`}>
+          <a href="https://forms.gle/jdGAdxAptHBcof4s6" className={`thm-btn ${props.btnClass}`}>
             <span>Get In Touch</span>
           </a>
         </div>

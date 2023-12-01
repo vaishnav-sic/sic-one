@@ -22,8 +22,8 @@ const MobileMenu = () => {
         <div className="side-menu__sep"></div>
         <div className="side-menu__content">
           <p>
-            SWASAMVEDYA INTELLIGENCE CENTRE
-            SIC
+            SWASAMVEDYA INTELLIGENCE CENTRE {"\n"} 
+            SIC {'\n'}
             Know Your SELF
           </p>
           <p>
