@@ -80,9 +80,9 @@ const Schedule = () => {
                 </li>
                 <br />
               </ul>
-              <a href="#" className="thm-btn cta-one__btn">
+              {/* <a href="#" className="thm-btn cta-one__btn">
                 <span>Discover More</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

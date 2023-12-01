@@ -27,7 +27,7 @@ const Contact = () => {
   });
 
   const validateEmail = (email) => {
-    const emailRegex = /\b[A-Za-z0-9._%+-]+@gmail\.com\b/;
+    const emailRegex = /\b[A-Za-z0-9._%+-]+@(gmail|yahoo|rediff)\.com\b/;
     return emailRegex.test(email);
   };
 
@@ -70,7 +70,8 @@ const Contact = () => {
     if (formData.email.trim() === "") {
       newErrors.email = "Email is required";
     } else if (!validateEmail(formData.email)) {
-      newErrors.email = "Invalid email format (must be @gmail.com)";
+      newErrors.email =
+        "Invalid email format (must be @gmail.com or @yahoo.com)";
     }
 
     if (formData.phone.trim() === "") {
@@ -144,7 +145,7 @@ const Contact = () => {
               <BlockTitle
                 textAlign="left"
                 paraText="Contact Now"
-                titleText={`Have Question? Write \n a Message`}
+                titleText={`Have Question?\n Write a Message`}
               />
               <div className="row">
                 <div className="col-lg-6">

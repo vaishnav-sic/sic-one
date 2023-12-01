@@ -5,6 +5,7 @@ import LogoImage from "../assets/images/SIC_LogoName.svg";
 
 const HeaderHome = (props) => {
   const [sticky, setSticky] = useState(false);
+  const [menuActive, setMenuActive] = useState(true);
 
   const handleScroll = () => {
     if (window.scrollY > 70) {
@@ -41,6 +42,9 @@ const HeaderHome = (props) => {
       });
     });
   };
+  const toggleMenu = () => {
+    setMenuActive(!menuActive);
+  };
 
   return (
     <header
@@ -52,7 +56,7 @@ const HeaderHome = (props) => {
           <a href="/">
             <img src={LogoImage} width="251" alt="" />
           </a>
-          <span className="side-menu__toggler">
+          <span className="side-menu__toggler" onClick={toggleMenu}>
             <i className="fa fa-bars"></i>
           </span>
         </div>
@@ -60,7 +64,11 @@ const HeaderHome = (props) => {
           <NavLinks />
         </div>
         <div className="main-nav__right">
-          <a href="https://forms.gle/jdGAdxAptHBcof4s6" className={`thm-btn ${props.btnClass}`}>
+          <a
+            href="https://forms.gle/jdGAdxAptHBcof4s6"
+            className={`thm-btn ${props.btnClass}`}
+            target="_blank"
+            rel="noopener noreferrer">
             <span>Get In Touch</span>
           </a>
         </div>

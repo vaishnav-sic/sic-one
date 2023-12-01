@@ -22,12 +22,13 @@ const MobileMenu = () => {
         <div className="side-menu__sep"></div>
         <div className="side-menu__content">
           <p>
-            SWASAMVEDYA INTELLIGENCE CENTRE {"\n"} 
-            SIC {'\n'}
+            SWASAMVEDYA INTELLIGENCE CENTRE <br />
+            SIC <br />
             Know Your SELF
           </p>
           <p>
-            <a href="mailto:info@swasamvedya.com">info@swasamvedya.com</a> <br />
+            <a href="mailto:info@swasamvedya.com">info@swasamvedya.com</a>{" "}
+            <br />
             <a href="tel:8381036632">+918381036632</a>
           </p>
           <div className="side-menu__social">
