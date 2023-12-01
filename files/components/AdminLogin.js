@@ -36,7 +36,7 @@ const AdminLogin = () => {
         <div className="overlay">
           <h1>Admin Login</h1>
           <p>
-            Fortune Education Services
+            SWASAMVEDYA INTELLIGENCE CENTRE
           </p>
         </div>
       </div>
