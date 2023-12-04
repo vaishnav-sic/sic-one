@@ -4,6 +4,9 @@ import "../assets/css/animate.min.css";
 import "swiper/swiper-bundle.min.css";
 import "../assets/css/fontawesome-all.min.css";
 import "../assets/css/style.css";
+import "../assets/css/wedding.css";
+import "../assets/css/page.module.css";
+
 import "../assets/css/responsive.css";
 import "react-modal-video/css/modal-video.min.css";
 import "ag-grid-community/styles/ag-grid.css";
