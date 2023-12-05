@@ -18,7 +18,7 @@ const internship = () => {
           btnClass="main-nav__btn"
           extraClassName="site-header-one__fixed-top"
         />
-        <MobileMenu />
+        <MobileMenu />  
         <PythonBanner />
         <PythonServices />
         <PythonProject />
