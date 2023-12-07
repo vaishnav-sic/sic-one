@@ -16,7 +16,7 @@ const FullStackSyllabus = (props) => {
         />
         <div className="accrodion-grp faq-accrodion">
           <AccordianItemNew
-            title="Data Structures & Alorithms"
+            title="Data Structures & Algorithms"
             content="Gain knowledge of the foundational concepts in mathematics needed for programming. Write code that is effective and optimised. Learn about the concept of competitive programming and get ready to take part in competitions. "
             bulletPoints={[
               "Strong data structures and algorithms foundation.",
