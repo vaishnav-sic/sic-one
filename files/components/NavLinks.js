@@ -25,7 +25,7 @@ const NavLinks = () => {
         </ScrollLink>
       </li>
       <li>
-        <Link href="/internship">Internships</Link>
+        <Link href="/python">Python</Link>
       </li>
       <li>
         <Link href="/solution">Solutions</Link>
