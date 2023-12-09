@@ -40,7 +40,7 @@
   --card-border-rgb: 131, 134, 135;
 } */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -104,7 +104,7 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
 
 /* ==========================Header========================== */
 
@@ -224,7 +224,7 @@ a {
 .section-bg {
   background-color: #f7ede9;
 }
-.elementor-widget-image{
+.elementor-widget-image {
   align-items: left;
 }
 .section-heading h2 {
@@ -238,7 +238,7 @@ a {
   text-align: center;
 }
 .section-heading img {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -264,7 +264,7 @@ a {
   border-radius: 28px;
   margin-top: 7rem;
 }
-.head_img{
+.head_img {
   align-items: center;
   /* margin-left: 10rem; */
 }
@@ -273,13 +273,13 @@ a {
   height: auto;
   margin-top: 6rem;
 }
-.events h2{
-  color: mediumvioletred;;
+.events h2 {
+  color: mediumvioletred;
 }
-.events p{
-color: gray;
+.events p {
+  color: gray;
 }
-.events h5{
+.events h5 {
   line-height: 2rem;
   font-size: 1.2rem;
 }
@@ -304,23 +304,23 @@ color: gray;
     margin-top: 40px;
 } */
 .about_area .about-con {
-    display: block;
-    text-align: center;
-    background: #fff;
-    border: 6px solid #ebebeb;
-    padding: 60px 0;
-    margin: 0 20px;
-    margin-top: 4rem;
-    border-radius: 25px;
+  display: block;
+  text-align: center;
+  background: #fff;
+  border: 6px solid #ebebeb;
+  padding: 60px 0;
+  margin: 0 20px;
+  margin-top: 4rem;
+  border-radius: 25px;
 }
-.section-one{
+.section-one {
   background-color: aliceblue;
 }
-.head-con h2{
+.head-con h2 {
   text-align: left;
   margin-top: 6rem;
 }
-.headcon h2{
+.headcon h2 {
   text-align: right;
   margin-top: 6rem;
 }
