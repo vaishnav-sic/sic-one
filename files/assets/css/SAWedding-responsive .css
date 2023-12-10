@@ -1,0 +1,39 @@
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 700px) {
+  }
+}
+
+@media (max-width: 575px) {
+}
+
+@media (max-width: 535px) {
+}
+
+@media (max-width: 490px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 375px) {
+  .blogpost1-in{
+    background-color: yellow;
+    display: flex;
+    height: 310px;
+    /* margin: 1rem; */
+    flex-direction: row-reverse;
+    padding: 1rem;
+    box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651);
+  
+}
