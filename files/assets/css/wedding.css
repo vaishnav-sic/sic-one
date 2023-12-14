@@ -229,10 +229,7 @@ a {
 
 /* ========================================First page================================================= */
 .section-bg {
-  background-color: #f7ede9;
-}
-.elementor-widget-image {
-  align-items: left;
+  background-image: url("https://radhawedskrishna.digitalnimantran.in/wp-content/uploads/2021/09/bg-2.jpg");
 }
 .section-heading h2 {
   margin: 0;
@@ -244,8 +241,8 @@ a {
   margin-top: 3rem;
   text-align: center;
 }
-.section-heading img {
-  content: "";
+.section-heading h2:after {
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -253,16 +250,14 @@ a {
   height: 35px;
   width: 176px;
   margin: 0 auto;
-  margin-left: 4.5rem;
-  margin-top: -7rem;
-  /* background: url(images/icons/sec.png) no-repeat center; */
+  background: url("https://dipstambh-d0cf0.web.app/assets/images/icons/sec.png") no-repeat center;
 }
 .event-area .events {
   display: block;
   position: relative;
   margin: 0 0 30px;
-  background: #fff;
-  border: 6px solid #ebebeb;
+  /* background: #fff; */
+  border: 6px solid #FF6A97;
   text-align: center;
   padding: 60px 50px 50px;
   /* -webkit-border-radius: 28px;
@@ -281,17 +276,28 @@ a {
   margin-top: 6rem;
 }
 .events h2 {
-  color: mediumvioletred;
+  color: crimson;;
 }
 .events p {
   color: gray;
 }
+.events h4{
+  color: black;
+}
 .events h5 {
   line-height: 2rem;
   font-size: 1.2rem;
+  color: darkblue;
 }
 .event-img {
-  margin-top: 8rem;
+  margin-top: 6rem;
+  border-radius: 20px 20px 20px 20px;
+}
+.event img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px; 
 }
 .elementor-widget-image img {
   vertical-align: middle;
@@ -306,19 +312,24 @@ a {
   box-shadow: none;
 }
 /* ===============================SATopPage================================ */
-/* .@media only screen and (max-width: 992px)
-.about_area .about-con {
-    margin-top: 40px;
+.main_container{
+  background-color: #f7ede9;
+}
+/* .elementor-widget-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 } */
 .about_area .about-con {
   display: block;
   text-align: center;
   background: #fff;
-  border: 6px solid #ebebeb;
+  border: 6px solid #17a2b8;
   padding: 60px 0;
   margin: 0 20px;
   margin-top: 4rem;
   border-radius: 25px;
+  box-shadow: 10px 10px;
 }
 .section-one {
   background-color: aliceblue;
@@ -326,10 +337,31 @@ a {
 .head-con h2 {
   text-align: left;
   margin-top: 6rem;
+  color: black;
+  margin-left: 8.5rem;
 }
 .headcon h2 {
   text-align: right;
   margin-top: 6rem;
+  color: black;
+  margin-right: 8.5rem;
+}
+.about-con h2{
+  font-size: 2rem;
+  color: darkred;
+  font-weight: bold;
+}
+.about-con h3{
+  color: crimson;
+}
+.about-con h4{
+  color: black;
+}
+.doli-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 /* 
 ////////////////////////////// Gallery starts///////////////// */
@@ -359,7 +391,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 8px 8px 0 0;
+  border-radius: 10px 10px 10px 10px; 
 }
 
 /* ////////////////// Blog Post /////////////// */
@@ -425,7 +457,7 @@ img {
 }
 
 .animation {
-  background: -webkit-linear-gradient(#eee, #333);
+  background: -webkit-linear-gradient(#dc3599, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
