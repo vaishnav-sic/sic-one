@@ -1,17 +1,17 @@
 import React from "react";
-import wedding1 from "../assets/images/SAimages/pre1.jpg"
-import wedding2 from "../assets/images/SAimages/pre.jpg"
-import wedding3 from "../assets/images/SAimages/pre3.jpg"
-import wedding4 from "../assets/images/SAimages/pre4.jpg"
-import wedding5 from "../assets/images/SAimages/pre1.jpg"
+import SAImg1 from "../assets/images/SAimages/SAImg1.jpg"
+import SAImg2 from "../assets/images/SAimages/SAImg2.jpg"
+import SAImg3 from "../assets/images/SAimages/SAImg3.jpg"
+import SAImg4 from "../assets/images/SAimages/SAImg4.jpg"
+import SAImg5 from "../assets/images/SAimages/SAImg5.jpg"
 
-import wedding6 from "../assets/images/SAimages/pre2.jpeg"
-import wedding7 from "../assets/images/SAimages/pre.jpg"
-import wedding8 from "../assets/images/SAimages/pre3.jpg"
-import wedding9 from "../assets/images/SAimages/pre4.jpg"
-import wedding10 from "../assets/images/SAimages/pre.jpg"
-import wedding11 from "../assets/images/SAimages/pre1.jpg"
-import wedding12 from "../assets/images/SAimages/pre2.jpeg"
+import SAImg6 from "../assets/images/SAimages/SAImg6.jpg"
+import SAImg7 from "../assets/images/SAimages/SAImg7.jpg"
+import SAImg8 from "../assets/images/SAimages/SAImg8.jpg"
+import SAImg9 from "../assets/images/SAimages/SAImg9.jpg"
+import SAImg10 from "../assets/images/SAimages/SAImg10.jpg"
+import SAImg11 from "../assets/images/SAimages/SAImg11.jpg"
+import SAImg12 from "../assets/images/SAimages/SAImg12.jpg"
 
 
 const Gallery = () => {
@@ -19,43 +19,43 @@ const Gallery = () => {
 
     <div class="gallery">
     <div class="gallery-item">
-      <img src={wedding1} alt="Image 1"/>
+      <img src={SAImg1} alt="Image 1"/>
     </div>
     <div class="gallery-item">
-      <img src={wedding2} alt="Image 2"/>
+      <img src={SAImg2} alt="Image 2"/>
     </div>
     <div class="gallery-item">
-      <img src={wedding3} alt="Image 3"/>
-    </div>
-
-    <div class="gallery-item">
-      <img src={wedding4} alt="Image 1"/>
-    </div>
-    <div class="gallery-item">
-      <img src={wedding5} alt="Image 2"/>
-    </div>
-    <div class="gallery-item">
-      <img src={wedding6} alt="Image 3"/>
+      <img src={SAImg3} alt="Image 3"/>
     </div>
 
     <div class="gallery-item">
-      <img src={wedding7} alt="Image 1"/>
+      <img src={SAImg4} alt="Image 1"/>
     </div>
     <div class="gallery-item">
-      <img src={wedding8} alt="Image 2"/>
+      <img src={SAImg5} alt="Image 2"/>
     </div>
     <div class="gallery-item">
-      <img src={wedding9} alt="Image 3"/>
+      <img src={SAImg6} alt="Image 3"/>
     </div>
 
     <div class="gallery-item">
-      <img src={wedding10} alt="Image 3"/>
+      <img src={SAImg7} alt="Image 1"/>
     </div>
     <div class="gallery-item">
-      <img src={wedding10} alt="Image 3"/>
+      <img src={SAImg8} alt="Image 2"/>
     </div>
     <div class="gallery-item">
-      <img src={wedding11} alt="Image 3"/>
+      <img src={SAImg9} alt="Image 3"/>
+    </div>
+
+    <div class="gallery-item">
+      <img src={SAImg10} alt="Image 3"/>
+    </div>
+    <div class="gallery-item">
+      <img src={SAImg11} alt="Image 3"/>
+    </div>
+    <div class="gallery-item">
+      <img src={SAImg12} alt="Image 3"/>
     </div>
   </div>
 

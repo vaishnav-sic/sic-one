@@ -10,12 +10,12 @@ import Blogpost from "../SAComponents/SABlogpost";
 export default function Home() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <SACounter /> */}
-      {/* <SATopPage/> */}
+      <Header />
+      <SACounter />
+      <SATopPage/>
+      <SAFirstPage/>
       <Blogpost/>
       <Gallery/>
-      {/* <SAFirstPage/> */}
       <main className={styles.main}>
         {/* <div className={styles.description}></div> */}
       </main>

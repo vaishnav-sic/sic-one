@@ -11,7 +11,7 @@ const SAFirstPage = () => {
                     <div class="col-md-12 col-sm-12">
                         <div class="section-heading">
                             <h2>शुभ विवाह</h2>
-                            <img  src={sec} className="image"/>
+                            {/* <img  src={sec} className="image"/> */}
                             {/* <img  src={flower} className="elementor-widget-image"/> */}
                         </div>
                     </div>
@@ -27,9 +27,9 @@ const SAFirstPage = () => {
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="event-img text-center">
+                        <div class="event-img">
                             <figure>
-                            <img  src={SAImg} />
+                            <img src={SAImg} />
                             </figure>
                         </div>
                     </div>
@@ -45,7 +45,6 @@ const SAFirstPage = () => {
                 </div>
             </div>
         </section>
-
   );
 };
 
