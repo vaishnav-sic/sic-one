@@ -43,7 +43,7 @@ const HomePage = () => (
       <AppScreen />
       <FAQ />
       <BlogHome />
-      {/* <EnquiryContact /> */}
+      <EnquiryContact /> 
       <CTAThree />
       <Footer />
     </Layout>
