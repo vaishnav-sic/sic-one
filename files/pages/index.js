@@ -6,7 +6,7 @@ import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import BlogHome from "../components/BlogHome";
 import CTAThree from "../components/CTAThree";
-import EnquiryContact from "../components/Enquiry";
+import Contact from "../components/Contact";
 import Services from "../components/Services";
 import CTAOne from "../components/CTAOne";
 import FunFact from "../components/FunFact";
@@ -33,18 +33,19 @@ const HomePage = () => (
       <Banner />
       <Services />
       <CTAOne />
-      <FunFact />
+      {/* <FunFact />
       <CTATwo />
       <Pricing />
       <Testimonials />
       <Clients />
       <Team />
       <VideoOne />
-      <AppScreen />
-      <FAQ />
-      <BlogHome />
-      <EnquiryContact /> 
-      <CTAThree />
+      <AppScreen /> */}
+      {/* <FAQ /> */}
+      <FullStackSyllabus />
+      {/* <BlogHome /> */}
+      <Contact />
+      {/* <CTAThree /> */}
       <Footer />
     </Layout>
   </div>
