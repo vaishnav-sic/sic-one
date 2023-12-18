@@ -434,26 +434,26 @@ a {
   /* box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651); */
   margin: 2rem;
   /* background-color:yellowgreen; */
-  display: flex;
+  /* display: flex; */
   margin-top: 1rem;
   /* width: 100%; */
 }
 
-.blogpost-in-left {
+/* .blogpost-in-left {
   width: 50%;
   align-items: center;
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .blogpost-in-right {
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .blogpostin-right-text {
