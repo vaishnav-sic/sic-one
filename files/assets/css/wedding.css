@@ -312,57 +312,47 @@ a {
   box-shadow: none;
 }
 /* ===============================SATopPage================================ */
-.main_container{
-  background-color: #f7ede9;
-}
-/* .elementor-widget-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-.about_area .about-con {
-  display: block;
+.heading {
   text-align: center;
-  background: #fff;
-  border: 6px solid #17a2b8;
-  padding: 60px 0;
-  margin: 0 20px;
-  margin-top: 4rem;
-  border-radius: 25px;
-  box-shadow: 10px 10px;
+  margin-top: 2rem;
+  color: whitesmoke;
+  font-family: "Kalam", Sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.head-con{
+  margin-top: 10rem;
+  text-align: center;
+}
+.persons {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  text-align: center;
+}
+.main_container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 100vh; */
 }
 .section-one {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-position: center;
 }
-.head-con h2 {
-  text-align: left;
-  margin-top: 6rem;
-  color: black;
-  margin-left: 8.5rem;
-}
-.headcon h2 {
-  text-align: right;
-  margin-top: 6rem;
-  color: black;
-  margin-right: 8.5rem;
-}
-.about-con h2{
-  font-size: 2rem;
-  color: darkred;
-  font-weight: bold;
-}
-.about-con h3{
-  color: crimson;
-}
-.about-con h4{
-  color: black;
-}
-.doli-img{
+.ganesh-img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 10vw;
 }
+@media (max-width: 767px){
+  .ganesh-img{
+    width: 30vw;
+  }
+}
+
 /* 
 ////////////////////////////// Gallery starts///////////////// */
 .gallery {
