@@ -13,21 +13,18 @@ const SABlogpost = () => {
       </div>
       {/* <div className="blogpost1">
       <div className="blogpost1-in">
-        <div className="blogpost-in-left">
-        <div className="img-square">
-        <img  src={Diamond1} />
-        </div >
-        </div>
+       
         <div className="blogpost-in-right">
-                <div className="blogpostin-right-text">
-               
-                    <h1>....निमंत्रक....</h1>
+                {/* <div className="blogpostin-right-text">
+                  <div className="blogpostin-right-text-header">
+                    ....निमंत्रक....
+                  </div>  
                     <div className="animation">
                       <br />श्री. दगडू शांताराम परम 
                       <br />सौ. सुनंदा शांताराम परम 
                       <br /> कु. महेश  शांताराम परम
                     </div>
-                  </div>
+                </div> */}
         </div>
         </div>
       </div>      */}
@@ -36,11 +33,7 @@ const SABlogpost = () => {
       </div>  
        <div className="blogpost1">
       <div className="blogpost1-in">
-        <div className="blogpost-in-left">
-        <div className="img-square">
-        <img  src={Diamond1} />
-        </div >
-        </div>
+        
         <div className="blogpost-in-right">
                 <div className="blogpostin-right-text">
                 <div>                
@@ -58,11 +51,7 @@ const SABlogpost = () => {
       </div>
       <div className="blogpost1">
       <div className="blogpost1-in">
-        <div className="blogpost-in-left">
-        <div className="img-square">
-        <img  src={Diamond1} />
-        </div >
-        </div>
+       
         <div className="blogpost-in-right">
                 <div className="blogpostin-right-text">
                 <div>         
