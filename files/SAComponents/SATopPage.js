@@ -1,50 +1,41 @@
 import React from "react";
-import Doli from "../assets/images/SAImages/Doli.png";
-import flower from "../assets/images/SAImages/flower.png";
-
+import ganesha from "../assets/images/SAImages/ganesha.png";
+import backgroundImage from "../assets/images/SAImages/SAImg14.jpg";
 
 const SATopPage = () => {
-return (
-    <section  section-scroll='1' class="about_area section section-one">
-    <div class="main_container"> 
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="persons">
-                {/* <img  src={flower} className="elementor-widget-image"/> */}
-                    <div class="head-con">
-                        <h2>शुभम पवार</h2>
+    const containerStyle = {
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
+        // backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        height: '50rem', // Adjust the height as needed   
+    };
+    const fadeInAnimation = {
+        animation: 'fadeIn 2s ease-in-out', // You can adjust the duration and timing function
+    };
+
+    return (
+        <section section-scroll='1' className="about_area section section-one" style={containerStyle}>
+            <div className="main_container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="persons">
+                            <div class="heading">
+                                <h4 style={fadeInAnimation}>॥ श्री गणेशाय नम: ॥</h4>
+                                <div class="ganesh-img">
+                                    <img src={ganesha} />
+                                </div>
+                                <div class="head-con">
+                                    <h4>शुभविवाह</h4>
+                                    <h2 style={fadeInAnimation}>शुभम आणि अक्षता </h2>
+                                    <h3 style={fadeInAnimation}>३ जानेवारी २०२४</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="about-con">
-                    <h2>Invitation</h2>
-                    <p>We inviting you and<br/>your family on</p>
-                    <h4>WEDNESDAY</h4>
-                    <h3>03 January 2024</h3>
-                    <p>At Gaikwadwadi.<br/> Tal. Karad, Dist. Satara.</p>
-                </div>
-                <div class="con-img mr-t60">
-                    {/* <figure><img src="assets/images/about/sm-1.jpg" alt=""/></figure> */}
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="persons">
-                    {/* <figure><img src="assets/images/about/2.jpg" alt=""/></figure> */}
-                    <div class="headcon">
-                        {/* <h2 data-aos="fade-left" data-aos-duration="800">
-                            अक्षता घाडगे
-                        </h2> */}
-                        <h2>अक्षता घाडगे</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="doli-img">
-                <img src={Doli} />
-            </div>
-        </div>
-    </div>
-</section>
-);
+        </section>
+    );
 };
 export default SATopPage;
