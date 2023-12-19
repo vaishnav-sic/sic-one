@@ -289,16 +289,17 @@ a {
   font-size: 1.2rem;
   color: darkblue;
 }
-.event-img {
+.event-img img {
   margin-top: 6rem;
-  border-radius: 20px 20px 20px 20px;
+  height: 30rem;
+  border-radius: 50% 50% 50% 50%;
 }
-.event img {
+/* .event img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px 10px 10px 10px; 
-}
+  border-radius: 50% 50% 50% 50%; 
+} */
 .elementor-widget-image img {
   vertical-align: middle;
   display: inline-block;
@@ -312,57 +313,55 @@ a {
   box-shadow: none;
 }
 /* ===============================SATopPage================================ */
-.main_container{
-  background-color: #f7ede9;
-}
-/* .elementor-widget-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-.about_area .about-con {
-  display: block;
+.heading {
   text-align: center;
-  background: #fff;
-  border: 6px solid #17a2b8;
-  padding: 60px 0;
-  margin: 0 20px;
-  margin-top: 4rem;
-  border-radius: 25px;
-  box-shadow: 10px 10px;
+  margin-top: 2rem;
+  color: whitesmoke;
+  font-family: "Kalam", Sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.head-con h2{
+  margin-top: 10rem;
+  text-align: center;
+  align-items: center;
+}
+.persons {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  text-align: center;
+}
+.main_container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 100vh; */
 }
 .section-one {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  background-position: center;
 }
-.head-con h2 {
-  text-align: left;
-  margin-top: 6rem;
-  color: black;
-  margin-left: 8.5rem;
-}
-.headcon h2 {
-  text-align: right;
-  margin-top: 6rem;
-  color: black;
-  margin-right: 8.5rem;
-}
-.about-con h2{
-  font-size: 2rem;
-  color: darkred;
-  font-weight: bold;
-}
-.about-con h3{
-  color: crimson;
-}
-.about-con h4{
-  color: black;
-}
-.doli-img{
+/* @media (max-width: 767px){
+  .section-one {
+    min-height: -20rem;
+  }
+} */
+.ganesh-img img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 5rem;
+  align-items: center;
 }
+@media (max-width: 767px){
+  .ganesh-img{
+    width: 28rem;
+    align-items: center;
+  }
+}
+
 /* 
 ////////////////////////////// Gallery starts///////////////// */
 .gallery {
@@ -373,7 +372,7 @@ a {
   box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651);
   margin: 4rem;
 }
-
+ 
 .gallery-item {
   box-shadow: 0 4px 30px rgba(12, 11, 11, 0.651);
   overflow: hidden;
@@ -382,7 +381,7 @@ a {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
-
+ 
 .gallery-item:hover {
   transform: scale(1.05);
 }
@@ -392,8 +391,8 @@ a {
   height: 100%;
   object-fit: cover;
   border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
 }
-
 /* ////////////////// Blog Post /////////////// */
 
 .SABlogpost-Header {
