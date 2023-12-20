@@ -9,13 +9,13 @@ const SAFirstPage = () => {
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="section-heading">
-                            <h2>शुभ विवाह</h2>
+                            <h2 style={{ animation: 'slideInDown 1s ease-in-out' }}>शुभ विवाह</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
-                        <div class="events">
+                    <div className="events" style={{ animation: 'slideInLeft 1s ease-in-out' }}>
                             <h2>हळदी समारंभ</h2>
                             <h5>बुधवार दि. 03/01/2024 <br />रोजी स. 10.00 ते 11.00 वा.</h5>
                             <h4>गायकवाडवाडी. ता. कराड, जि. सातारा </h4>
@@ -23,14 +23,14 @@ const SAFirstPage = () => {
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="event-img">
+                        <div className="event-img" style={{ animation: 'slideInRight 1s ease-in-out' }}>
                             <figure>
                             <img src={SAImg} />
                             </figure>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="events">
+                        <div class="events" style={{ animation: 'slideInRight 1s ease-in-out' }}>
                             <h2>विवाह मुहूर्त</h2>
                             <h5>बुधवार दि. 03/01/2024 रोजी <br/> दुपारी 3.50 मि.</h5>
                             <h4>गायकवाडवाडी. ता. कराड, जि. सातारा </h4>
