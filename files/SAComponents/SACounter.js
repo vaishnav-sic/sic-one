@@ -1,9 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { FaRegClock } from "react-icons/fa";
-
+import useSound from "use-sound";
 const SACounter = () => {
-  const weddingDate = new Date("2023-12-12T18:00:00");
+  const weddingDate = new Date("2024-01-01T18:00:00");
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
+  const [play] = useSound(
+    "../SAComponents/music/Shehnai.mp3",
+    {
+      volume: 1.0,
+      autoplay: true,
+    },
+    []
+  );
 
   function calculateTimeRemaining() {
     const now = new Date();
@@ -33,22 +41,34 @@ const SACounter = () => {
 
   return (
     <div className="counter">
+      {/* <button onClick={play}>Audio</button> */}
+
+      {/* <AudioPlayer /> */}
       <FaRegClock className="icon" />
+      <h3>आतुरता लग्नाची..।।</h3>
       <div className="timer">
         <div>
-          <span>{timeRemaining.days}</span>
+          <button className="button-40" role="button">
+            <span className="text">{timeRemaining.days}</span>
+          </button>
           <p>Days</p>
         </div>
         <div>
-          <span>{timeRemaining.hours}</span>
+          <button className="button-40" role="button">
+            <span className="text">{timeRemaining.hours}</span>
+          </button>
           <p>Hours</p>
         </div>
         <div>
-          <span>{timeRemaining.minutes}</span>
+          <button className="button-40" role="button">
+            <span className="text">{timeRemaining.minutes}</span>
+          </button>
           <p>Minutes</p>
         </div>
         <div>
-          <span>{timeRemaining.seconds}</span>
+          <button className="button-40" role="button">
+            <span className="text">{timeRemaining.seconds}</span>
+          </button>
           <p>Seconds</p>
         </div>
       </div>
