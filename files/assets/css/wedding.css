@@ -415,6 +415,7 @@ a {
   margin-top: 10rem;
   text-align: center;
   align-items: center;
+  line-height: 5rem;
 }
 .persons {
   /* display: flex; */
@@ -442,7 +443,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 5rem;
+  width: 4rem;
   align-items: center;
 }
 @media (max-width: 767px) {
