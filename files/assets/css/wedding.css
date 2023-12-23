@@ -167,7 +167,7 @@ a {
 /* ==========================Footer========================== */
 
 .footer {
-  background-color: #333;
+  background-color: #333333;
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -220,6 +220,10 @@ a {
   margin-right: 0.5rem;
   font-size: 1.5rem;
 }
+.counter h3{
+  font-weight: bold;
+  color: red;
+}
 
 .timer {
   display: flex;
@@ -236,6 +240,7 @@ a {
 .timer span {
   font-size: 2rem;
   font-weight: bold;
+  color: black;
 }
 
 .timer p {
@@ -446,6 +451,12 @@ a {
     align-items: center;
   }
 }
+@media (max-width: 768px) {
+    .about_area {
+        height: 30vh;
+    }
+}
+
 
 /* 
 ////////////////////////////// Gallery starts///////////////// */

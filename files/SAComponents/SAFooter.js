@@ -4,11 +4,11 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 const SAFooter = () => {
   return (
     <footer className="footer">
-      <h3>विवाह स्थळ</h3>
+      <h3>...विवाह स्थळ...</h3>
       <div className="map">
         <iframe
           title="Location Map"
-          src="https://www.google.com/maps/place/Gaikwadwadi,+Maharashtra/@17.4952184,74.1957924,13.93z/data=!4m6!3m5!1s0x3bc22b4b03f8155b:0x263c77e3d58e9bd3!8m2!3d17.4810783!4d74.2149978!16s%2Fg%2F12hsf0vp8?entry=ttu"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30444.355594855253!2d74.19480522778635!3d17.481504822928244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc22b4b03f8155b%3A0x263c77e3d58e9bd3!2sGaikwadwadi%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1703315312103!5m2!1sen!2sin" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
           width="300"
           height="200"
           style={{ border: 0 }}
@@ -25,7 +25,7 @@ const SAFooter = () => {
         </a> */}
         <div>
           <FaMapMarkerAlt className="icon" />
-          <p>Address: Gaikwadwadi, Maharashtra</p>
+          <p>Address: Gaikwadwadi, Satara, Maharashtra</p>
         </div>
       </div>
     </footer>

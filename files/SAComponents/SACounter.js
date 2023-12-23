@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { FaRegClock } from "react-icons/fa";
-import useSound from "use-sound";
+// import useSound from "use-sound";
 const SACounter = () => {
   const weddingDate = new Date("2024-01-01T18:00:00");
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
-  const [play] = useSound(
-    "../SAComponents/music/Shehnai.mp3",
-    {
-      volume: 1.0,
-      autoplay: true,
-    },
-    []
-  );
+  // const [play] = useSound(
+  //   "../SAComponents/music/Shehnai.mp3",
+  //   {
+  //     volume: 1.0,
+  //     autoplay: true,
+  //   },
+  //   []
+  // );
 
   function calculateTimeRemaining() {
     const now = new Date();
