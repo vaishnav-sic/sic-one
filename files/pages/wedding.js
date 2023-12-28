@@ -7,6 +7,7 @@ import SATopPage from "../SAComponents/SATopPage";
 import Gallery from "../SAComponents/SAGallery";
 import SAGallery from "../SAComponents/SAGallery";
 import SABlogpost from "../SAComponents/SABlogpost";
+import WeddingFooter from "../SAComponents/WeddingFooter";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <SABlogpost />
 
       <Footer />
+      <WeddingFooter />
     </>
   );
 }

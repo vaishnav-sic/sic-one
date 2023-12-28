@@ -167,7 +167,7 @@ a {
 /* ==========================Footer========================== */
 
 .footer {
-  background-color: #333333;
+  background-color: #B0578D;
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -201,13 +201,13 @@ a {
 /* ==========================Counter========================== */
 
 .counter {
-  background-image: url("../images/SAImages/Counter.jpg");
+  /* background-image: url("../images/SAImages/Counter.jpg"); */
   background-size: cover;
   background-position: center;
   padding: 2rem;
   text-align: center;
   position: relative;
-  color: #ff0000;
+  color: blanchedalmond;
   z-index: 1;
   /* margin-top: 120px; */
 }
@@ -222,7 +222,8 @@ a {
 }
 .counter h3{
   font-weight: bold;
-  color: red;
+  color: #F31559;
+  font-family: 'Kalam', sans-serif;
 }
 
 .timer {
@@ -240,7 +241,7 @@ a {
 .timer span {
   font-size: 2rem;
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
 }
 
 .timer p {
@@ -254,20 +255,20 @@ a {
   }
 
   .timer {
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 }
 /* ================button=========================== */
 
 /* CSS */
 .button-40 {
-  --glow-color: rgba(255, 255, 255, 0.8);
-  --glow-spread-color: rgba(191, 123, 255, 0.4);
+  /* --glow-color: rgba(255, 255, 255, 0.8); */
+  /* --glow-spread-color: rgba(191, 123, 255, 0.4);
   --enhanced-glow-color: rgb(231, 206, 255);
   --btn-color: rgba(100, 61, 136, 0.8);
-  border: 0.2em solid var(--glow-color);
+  border: 0.2em solid var(--glow-color); */
   padding: 1em 3em;
-  color: var(--glow-color);
+  /* color: var(--glow-color); */
   font-size: 15px;
   font-weight: bold;
   background-color: var(--btn-color);
@@ -279,6 +280,7 @@ a {
   text-shadow: 0 0 0.3em var(--glow-color);
   position: relative;
   transition: all 0.3s;
+  border: 0;
 }
 
 /* Add a slight transparency to the button when hovered */
@@ -381,7 +383,7 @@ a {
 
 .event-img img {
   margin-top: 6rem;
-  height: 30rem;
+  height: 28rem;
   border-radius: 50% 50% 50% 50%;
 }
 /* .event img {
