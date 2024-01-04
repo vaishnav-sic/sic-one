@@ -6,6 +6,7 @@ import "../assets/css/fontawesome-all.min.css";
 import "../assets/css/style.css";
 import "../assets/css/wedding.css";
 import "../assets/css/page.module.css";
+import "../assets/css/SAWedding-responsive.css";
 
 import "../assets/css/responsive.css";
 import "react-modal-video/css/modal-video.min.css";
