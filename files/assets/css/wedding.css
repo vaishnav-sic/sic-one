@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
 
 /* :root {
   --max-width: 1100px;
@@ -221,10 +221,10 @@ a {
   margin-right: 0.5rem;
   font-size: 1.5rem;
 }
-.counter h3{
+.counter h3 {
   font-weight: bold;
-  color: #F31559;
-  font-family: 'Kalam', sans-serif;
+  color: #f31559;
+  font-family: "Kalam", sans-serif;
 }
 
 .timer {
@@ -456,9 +456,9 @@ a {
   }
 }
 @media (max-width: 768px) {
-    .about_area {
-        height: 30vh;
-    }
+  .about_area {
+    height: 30vh;
+  }
 }
 /* 
 ////////////////////////////// Gallery starts///////////////// */
@@ -576,18 +576,15 @@ a {
 
 .blogpostin-right-text {
   text-align: center;
-  font-family: kalam;
-  
+  font-family: "Kalam", Sans-serif;
 }
-.blogpostin-right-text-header {
-  font-size: 32px;
-}
-.Nam-logo img{
+
+.Nam-logo img {
   width: 45px;
   height: 45px;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 8px; 
+  border-radius: 8px;
   background-color: ;
 }
 
@@ -719,3 +716,180 @@ a {
 
 @media (max-width: 375px) {
 }
+/* ===================================GoldMoments======================================= */
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.gold-moment-container {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 4em;
+  color: #da253c;
+  font-family: "Kalam", Sans-serif;
+  margin-top: 2rem;
+}
+.text {
+  font-size: 1.2em;
+  color: #da253c;
+  font-family: "Kalam", Sans-serif;
+
+  line-height: 1.6;
+  text-align: justify;
+  /* margin-left: 6rem;
+  margin-right: 6rem; */
+  margin-bottom: 2rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5em;
+    font-size: 3em;
+  }
+
+  .text {
+    font-size: 1em;
+  }
+}
+
+/* ===================================GoldMoments======================================= */
+
+/* ===================================BDIngo======================================= */
+
+.wedding-container {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title1 {
+  font-size: 2em;
+  color: #da253c;
+  font-family: "Kalam", sans-serif;
+}
+
+.photos-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.photo {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.photo h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.photo p {
+  font-size: 1em;
+  color: #666;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 4px 4px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #da253c;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Style for the icons */
+.social-links i {
+  font-size: 1.5em;
+}
+
+/* ===================================BDIngo======================================= */
+/* ===========================Events================================= */
+
+/* Updated CSS to show events in a horizontal row */
+
+.event-container {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #eed0e8;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 2em;
+  color: #da253c;
+  font-family: "Kalam", sans-serif;
+}
+
+.events-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.event {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.event img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.event-details {
+  text-align: center;
+}
+
+.event h2 {
+  font-size: 2em;
+  color: #000000;
+  font-family: "Kalam", sans-serif;
+}
+
+.event p {
+  font-size: 1em;
+  color: #666;
+}
+.evt {
+  text-align: center;
+  background-color: #eed0e8;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .events-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ===========================Events================================= */
