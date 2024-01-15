@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
 
 /* :root {
   --max-width: 1100px;
@@ -221,10 +221,10 @@ a {
   margin-right: 0.5rem;
   font-size: 1.5rem;
 }
-.counter h3{
+.counter h3 {
   font-weight: bold;
-  color: #F31559;
-  font-family: 'Kalam', sans-serif;
+  color: #f31559;
+  font-family: "Kalam", sans-serif;
 }
 
 .timer {
@@ -456,9 +456,9 @@ a {
   }
 }
 @media (max-width: 768px) {
-    .about_area {
-        height: 30vh;
-    }
+  .about_area {
+    height: 30vh;
+  }
 }
 /* 
 ////////////////////////////// Gallery starts///////////////// */
@@ -576,18 +576,15 @@ a {
 
 .blogpostin-right-text {
   text-align: center;
-  font-family: kalam;
-  
+  font-family: "Kalam", Sans-serif;
 }
-.blogpostin-right-text-header {
-  font-size: 32px;
-}
-.Nam-logo img{
+
+.Nam-logo img {
   width: 45px;
   height: 45px;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 8px; 
+  border-radius: 8px;
   background-color: ;
 }
 
@@ -719,3 +716,319 @@ a {
 
 @media (max-width: 375px) {
 }
+/* ===================================GoldMoments======================================= */
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.gold-moment-container {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 4em;
+  color: #da253c;
+  font-family: "Kalam", Sans-serif;
+  margin-top: 2rem;
+}
+.text {
+  font-size: 1.2em;
+  color: #da253c;
+  font-family: "Kalam", Sans-serif;
+
+  line-height: 1.6;
+  text-align: center;
+  /* margin-left: 6rem;
+  margin-right: 6rem; */
+  margin-bottom: 2rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5em;
+    font-size: 3em;
+  }
+
+  .text {
+    font-size: 1em;
+  }
+}
+
+/* ===================================GoldMoments======================================= */
+
+/* ===================================BDInfo======================================= */
+
+.wedding-container {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title1 {
+  font-size: 2em;
+  color: #da253c;
+  font-family: "Kalam", sans-serif;
+}
+
+.photos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.photo {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 0px 42px 0px 42px;
+}
+
+.photo h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.photo p {
+  font-size: 1em;
+  color: #666;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 4px 4px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #da253c;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-links i {
+  font-size: 1.5em;
+}
+@media (max-width: 768px) {
+  .events-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ===================================BDInfo======================================= */
+/* ===========================Events================================= */
+
+/* Updated CSS to show events in a horizontal row */
+.evt {
+  text-align: center;
+  background-color: #eed0e8;
+  padding-top: 2rem;
+}
+
+.event-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 4rem; */
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 2em;
+  color: #da253c;
+  font-family: "Kalam", sans-serif;
+  padding-bottom: 1rem;
+}
+
+.events-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.event {
+  height: 550px;
+  width: 280px;
+}
+
+.event img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.event-details {
+  text-align: center;
+}
+
+.event h2 {
+  font-size: 2em;
+  color: #000000;
+  font-family: "Kalam", sans-serif;
+}
+
+.event p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .events-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ===========================Events================================= */
+/* ==============================YTVideo================================ */
+.video-one1 {
+  width: 100%;
+  max-width: 1550px;
+  padding-left: 15px;
+  margin-left: auto;
+}
+
+.video-one1 .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.video-one1 .container-fluid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--thm-base)),
+    to(var(--thm-primary))
+  ); */
+  /* background-image: linear-gradient(
+    90deg,
+    var(--thm-base) 0%,
+    var(--thm-primary) 100%
+  ); */
+  background-color: #d17c87;
+  opacity: 0.8;
+}
+
+.video-one1__btn {
+  width: 192px;
+  height: 192px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 27px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  background-size: 200% auto;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--thm-base)),
+    color-stop(51%, var(--thm-primary)),
+    to(var(--thm-base))
+  );
+  background-image: linear-gradient(
+    90deg,
+    var(--thm-base) 0%,
+    var(--thm-primary) 51%,
+    var(--thm-base) 100%
+  );
+}
+
+.video-one1__btn:hover {
+  background-position: right;
+}
+
+.video-one1__btn i {
+  color: #fff;
+  font-size: 40px;
+}
+
+.video-one1__content {
+  position: absolute;
+  z-index: 12;
+  top: calc(50% - 239px);
+  left: calc(0% - 230px);
+  width: 100%;
+  max-width: 460px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-top: 144.5px;
+  padding-bottom: 144.5px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
+}
+
+@media (max-width: 1760px) {
+  .video-one1 {
+    margin-top: 174.5px;
+  }
+
+  .video-one1__content {
+    left: 0;
+    top: calc(0% - 174.5px);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-shadow: 0px -10px 60px 0px rgba(46, 61, 98, 0.1);
+  }
+}
+
+.video-one1__content .block-title {
+  padding-bottom: 0;
+}
+/* ==============================YTVideo================================ */
