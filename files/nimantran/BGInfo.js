@@ -12,10 +12,10 @@ const BGInfo = () => {
       <div className="photos-container">
         <div className="photo">
           <img
-            src="https://s-media-cache-ak0.pinimg.com/736x/5e/eb/e4/5eebe415eeb1ae8e732098404b9592fe.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3KmZe06KzCZqr2xv1t4CRe1hTzTYDtfb6g&usqp=CAU"
             alt="Bride"
           />
-          <h2>Bride's Name</h2>
+          <h2>वधू</h2>
           <p>Little info about the bride</p>
           <div className="social-links">
             <a
@@ -34,10 +34,10 @@ const BGInfo = () => {
         </div>
         <div className="photo">
           <img
-            src="https://3.bp.blogspot.com/--zdyT3cyTOs/UknTcjyl34I/AAAAAAAAAPg/FVaxUMfTXUM/s1600/2sk.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3KmZe06KzCZqr2xv1t4CRe1hTzTYDtfb6g&usqp=CAU"
             alt="Groom"
           />
-          <h2>Groom's Name</h2>
+          <h2>वर</h2>
           <p>Little info about the groom</p>
           <div className="social-links">
             <a

@@ -4,7 +4,7 @@ import kal from "../assets/images/SAImages/Kalash.jpg";
 const Events = () => {
   return (
     <div className="evt">
-      <h1 className="title1">कार्यक्रम</h1>
+      <h1 className="title">कार्यक्रम</h1>
       <div className="event-container">
         <div className="event">
           <img src={kal} alt="साखरपुळा" />

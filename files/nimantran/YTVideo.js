@@ -15,7 +15,7 @@ const YTVideo = () => {
     });
   };
   return (
-    <section className="video-one">
+    <section className="video-one1">
       <div
         id="going"
         className="container-fluid"
