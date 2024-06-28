@@ -1,7 +1,7 @@
 import React from "react";
 import ganesha from "../assets/images/SAImages/ganesha.png";
-import backgroundImage from "../assets/images/SAImages/m41.jpeg";
-import Shubhvivah from "../assets/images/SAImages/Shubhvivah.png";
+import backgroundImage from "../assets/images/SAImages/PD1.jpeg";
+import SaveTheDate from "../assets/images/SAImages/SaveTheDate.png";
 
 const SATopPage = () => {
   const containerStyle = {
@@ -10,7 +10,7 @@ const SATopPage = () => {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",
-    height: "50rem", // Adjust the height as needed
+    height: "40rem", // Adjust the height as needed
   };
   const fadeInAnimation = {
     animation: "fadeIn 2s ease-in-out", // You can adjust the duration and timing function
@@ -22,23 +22,19 @@ const SATopPage = () => {
       className="about_area section section-one"
       style={containerStyle}>
       <div className="main_container">
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
             <div class="persons">
               <div class="heading">
-                <h4 style={fadeInAnimation}>॥ श्री गणेशाय नम: ॥</h4>
-                <div class="ganesh-img">
+                <h6 style={fadeInAnimation}>॥ Shree Ganeshay Namah ॥</h6>
+                {/* <div class="ganesh-img">
                   <img src={ganesha} />
-                </div>
+                </div> */}
                 <div class="head-con">
-                <img className="Shubh-pic" src={Shubhvivah} />
-                  <h2 style={fadeInAnimation}>मयूर आणि प्रियांका  </h2>
-                  <h3 style={fadeInAnimation}>6  जानेवारी २०२४</h3>
+                <img className="SaveTheDate" src={SaveTheDate} />
+                  <h2 style={fadeInAnimation}>Pratik & Dipti  </h2>
+                  <h3 style={fadeInAnimation}>28 January 2024</h3>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
       </div>
     </section>
   );

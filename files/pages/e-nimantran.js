@@ -1,3 +1,4 @@
+import Layout from "../components/Layout";
 import SACounter from "../nimantran/Counter";
 import Footer from "../nimantran/Footer";
 import Header from "../nimantran/Header";
@@ -7,15 +8,27 @@ import SATopPage from "../nimantran/TopPage";
 import Gallery from "../nimantran/Gallery";
 import SAGallery from "../nimantran/Gallery";
 import SABlogpost from "../nimantran/Blogpost";
+import Shubheccha from "../nimantran/Shubheccha";
 import WeddingFooter from "../nimantran/WeddingFooter";
+import YTVideo from "../nimantran/YTVideo";
+import GoldenMoment from "../nimantran/GoldenMoment";
+import BGInfo from "../nimantran/BGInfo";
+import Events from "../nimantran/Events";
 
 export default function Home() {
   return (
     <>
       {/* <Header /> */}
+    <Layout pageTitle="Groom Weds Bride">
       <SATopPage />
-      <SAFirstPage />
+      <BGInfo />
+      {/* <SAFirstPage /> */}
       <SACounter />
+      <GoldenMoment />
+      <Events />
+      <YTVideo />
+      <SABlogpost />
+      <Shubheccha />
       <Gallery />
       {/* <SATopPage /> */}
       {/* <SAFirstPage /> */}
@@ -23,10 +36,10 @@ export default function Home() {
         <div className={styles.description}></div>
       </main> */}
       {/* <SAGallery /> */}
-      <SABlogpost />
-
+      <SACounter />
       <Footer />
       <WeddingFooter />
+    </Layout>
     </>
   );
 }

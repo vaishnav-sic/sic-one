@@ -11,10 +11,10 @@ const Banner = () => {
   });
   const [textIndex, setTextIndex] = useState(0);
   const [subTextOptions, setSubTextOptions] = useState([
-    "Training",
-    "Internship",
-    "Product",
-    "Solution",
+    "Wedding",
+    "Birthday",
+    "House-warming",
+    "Anniversary",
   ]);
 
   const openModal = () => {
@@ -41,7 +41,7 @@ const Banner = () => {
         <ModalVideo
           channel="youtube"
           isOpen={open.isOpen}
-          videoId="AxggwtFhVIM"
+          videoId=""
           onClose={() => setOpen({ isOpen: false })}
         />
         <div onClick={openModal} className="banner-one__video video-popup">
@@ -62,7 +62,7 @@ const Banner = () => {
                 className="banner-one__mc-form mc-form"
                 data-url="MAILCHIMP__POPUP__FORM__URL">
                 <div className="center-text">
-                  <h5>Seeking In-Depth Information?</h5>
+                  <h5>Move to digital invitation today</h5>
                 </div>
                 <a href="#enquire" className="thm-btn banner-one__btn">
                   <span>Dive In!</span>
@@ -70,12 +70,12 @@ const Banner = () => {
               </form>
               <div className="mc-form__response"></div>
               <h3>
-                Best IT <br />
+                Invitation for <br />
                 <div className="red-text">{subTextOptions[textIndex]}</div>
               </h3>
-              <p>Get 100% Ready for Coding Interview</p>
+              <p>Digital-amantran</p>
               <a href="#enquire" className="thm-btn banner-one__btn">
-                <span>Discover More</span>
+                <span>Contact now</span>
               </a>
             </div>
           </div>

@@ -19,6 +19,7 @@ import FAQ from "../components/FAQ";
 import Clients from "../components/Clients";
 import Testimonials from "../components/Testimonials";
 import FullStackSyllabus from "../components/FullStackSyllabus";
+import WeddingClients from "../components/WeddingClients";
 
 const HomePage = () => (
   <div>
@@ -31,8 +32,9 @@ const HomePage = () => (
       />
       <MobileMenu />
       <Banner />
-      <Services />
-      <CTAOne />
+      <WeddingClients />
+      {/* <Services />
+      <CTAOne /> */}
       {/* <FunFact />
       <CTATwo />
       <Pricing />
@@ -40,12 +42,12 @@ const HomePage = () => (
       <Clients />
       <Team />
       <VideoOne />
-      <AppScreen /> */}
-      {/* <FAQ /> */}
-      <FullStackSyllabus />
+      <AppScreen />
+      <FAQ />
+      <FullStackSyllabus /> */}
       {/* <BlogHome /> */}
-      <Contact />
-      {/* <CTAThree /> */}
+      {/* <Contact />
+      <CTAThree /> */}
       <Footer />
     </Layout>
   </div>

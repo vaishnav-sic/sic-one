@@ -1,9 +1,8 @@
 import React from "react";
-import ganesha from "../assets/images/SAImages/ganesha.png";
-import backgroundImage from "../assets/images/SAImages/m41.jpeg";
-import Shubhvivah from "../assets/images/SAImages/Shubhvivah.png";
-
-const SATopPage = () => {
+import backgroundImage from "../assets/images/SAImages/m23.jpg";
+ 
+ 
+const Shubheccha = () => {
   const containerStyle = {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
     // backgroundImage: `url(${backgroundImage})`,
@@ -15,7 +14,7 @@ const SATopPage = () => {
   const fadeInAnimation = {
     animation: "fadeIn 2s ease-in-out", // You can adjust the duration and timing function
   };
-
+ 
   return (
     <section
       section-scroll="1"
@@ -25,16 +24,9 @@ const SATopPage = () => {
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <div class="persons">
-              <div class="heading">
-                <h4 style={fadeInAnimation}>॥ श्री गणेशाय नम: ॥</h4>
-                <div class="ganesh-img">
-                  <img src={ganesha} />
-                </div>
-                <div class="head-con">
-                <img className="Shubh-pic" src={Shubhvivah} />
-                  <h2 style={fadeInAnimation}>मयूर आणि प्रियांका  </h2>
-                  <h3 style={fadeInAnimation}>6  जानेवारी २०२४</h3>
-                </div>
+              <div class="heading-mid">
+              <h1>नाती जन्मोजन्मींची, परमेश्वराने ठरवलेली, दोन जीवांना प्रेमभरल्या रेशीमगाठीत बांधलेली… लग्नाच्या हार्दिक शुभेच्छा..!!
+</h1>
               </div>
             </div>
           </div>
@@ -43,4 +35,4 @@ const SATopPage = () => {
     </section>
   );
 };
-export default SATopPage;
+export default Shubheccha;

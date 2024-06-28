@@ -1,17 +1,16 @@
 import React from "react";
-import Img1 from "../assets/images/SAimages//m 1.jpg";
-import Img2 from "../assets/images/SAimages/m27.jpg";
-import Img3 from "../assets/images/SAimages/m33.jpg";
-import Img4 from "../assets/images/SAimages/m14.jpg";
-import Img5 from "../assets/images/SAimages/m34.jpg";
-
-import Img6 from "../assets/images/SAimages/m36.jpg";
-import Img7 from "../assets/images/SAimages/m9.jpg";
-import Img8 from "../assets/images/SAimages/m17.jpg";
-import Img9 from "../assets/images/SAimages/m23.jpg";
-import Img10 from "../assets/images/SAimages/m29.jpg";
-import Img11 from "../assets/images/SAimages/m9.jpg";
-import Img12 from "../assets/images/SAimages/m37.jpg";
+import Img1 from "../assets/images/SAimages/PD3.jpeg";
+import Img2 from "../assets/images/SAimages/PD4.jpeg";
+import Img3 from "../assets/images/SAimages/PD5.jpeg";
+import Img4 from "../assets/images/SAimages/PD6.jpeg";
+import Img5 from "../assets/images/SAimages/PD7.jpeg";
+import Img6 from "../assets/images/SAimages/PD8.jpeg";
+import Img7 from "../assets/images/SAimages/PD9.jpeg";
+import Img8 from "../assets/images/SAimages/PD10.jpeg";
+import Img9 from "../assets/images/SAimages/PD11.jpeg";
+import Img10 from "../assets/images/SAimages/PD12.jpeg";
+import Img11 from "../assets/images/SAimages/PD13.jpeg";
+import Img12 from "../assets/images/SAimages/PD1.jpeg";
 
 const Gallery = () => {
   return (
