@@ -1,32 +1,33 @@
 import React from "react";
-import kal from "../assets/images/SAImages/Kalash.jpg";
+import Haldi from "../assets/images/SAImages/Haldi.png";
+import Wedding from "../assets/images/SAImages/Wedding.png";
 
 const Events = () => {
   return (
     <div className="evt">
-      <h1 className="title">कार्यक्रम</h1>
+      <h1 className="title">Events</h1>
       <div className="event-container">
         <div className="event">
-          <img src={kal} alt="साखरपुळा" />
+          <img src={Haldi} alt="हळद" />
           <div className="event-details">
-            <h2>साखरपुळा</h2>
-            <p> १० जून २०२२</p>
-            <p> ५:०० वाजता</p>
-            <p> समाज मंदिर, पुणे</p>
+            <h2>Haldi Ceremony</h2>
+            <p> 28 January 2024</p>
+            <p> 10:00 am</p>
+            <p> At Venue</p>
           </div>
         </div>
 
         <div className="event">
-          <img src={kal} alt="हळद" />
+          <img src={Wedding} alt="लग्न" />
           <div className="event-details">
-            <h2>हळद</h2>
-            <p> १२ जून २०२२</p>
-            <p> ३:०० वाजता</p>
-            <p> श्रीमंत मंगल कार्यालय, पुणे</p>
+          <h2>Wedding Ceremony</h2>
+            <p> 28 January 2024</p>
+            <p> 12:47 pm</p>
+            <p> At Venue</p>
           </div>
         </div>
 
-        <div className="event">
+        {/* <div className="event">
           <img src={kal} alt="लग्न" />
           <div className="event-details">
             <h2>लग्न</h2>
@@ -44,7 +45,7 @@ const Events = () => {
             <p> १०:०० वाजता</p>
             <p> समाज भवन, पुणे</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

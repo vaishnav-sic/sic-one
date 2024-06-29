@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "../assets/images/SAImages/m23.jpg";
+import backgroundImage from "../assets/images/SAImages/PD14.jpeg";
  
  
 const Shubheccha = () => {
@@ -22,14 +22,12 @@ const Shubheccha = () => {
       style={containerStyle}>
       <div className="main_container">
         <div class="row">
-          <div class="col-md-4 col-sm-12">
             <div class="persons">
-              <div class="heading-mid">
-              <h1>नाती जन्मोजन्मींची, परमेश्वराने ठरवलेली, दोन जीवांना प्रेमभरल्या रेशीमगाठीत बांधलेली… लग्नाच्या हार्दिक शुभेच्छा..!!
+              <div class="heading-mid myfont" >
+              <h1>Together with joy, laughter, and love, we invite you to celebrate our wedding day...!!
 </h1>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>

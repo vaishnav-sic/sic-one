@@ -5,7 +5,7 @@ import BlogPost from "./BlogPost";
 
 import BlogImage1 from "../assets/images/SAImages/SAImg.jpg";
 import BlogImage2 from "../assets/images/SAImages/PD1.jpeg";
-import BlogImage3 from "../assets/images/SAImages/m41.jpeg";
+import BlogImage3 from "../assets/images/SAImages/NV.jpeg";
 
 const BlogHome = () => {
   return (
@@ -33,8 +33,8 @@ const BlogHome = () => {
           />
           <BlogPost
             postImage={BlogImage3}
-            postTitle="Mayur & Priyanka"
-            postDate="06 Jan"
+            postTitle="Nikita & Vaibhav"
+            postDate="12 July"
             postCommentCount="2 comments"
             postLink="/blog-post"
           />

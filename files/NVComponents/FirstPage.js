@@ -1,6 +1,6 @@
 import React from "react";
 import sec from "../assets/images/SAImages/sec.png";
-import SAImg from "../assets/images/SAImages/m21.jpg";
+import Img from "../assets/images/SAImages/PD1.jpeg";
 
 const SAFirstPage = () => {
   return (
@@ -37,7 +37,7 @@ const SAFirstPage = () => {
               className="event-img"
               style={{ animation: "slideInRight 1s ease-in-out" }}>
               <figure>
-                <img src={SAImg} />
+                <img src={Img} />
               </figure>
             </div>
           </div>

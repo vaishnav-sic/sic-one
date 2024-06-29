@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { FaRegClock } from "react-icons/fa";
-import backgroundImage from "../assets/images/SAImages/m24.jpg";
+import backgroundImage from "../assets/images/SAImages/PD5.jpeg";
 
 // import useSound from "use-sound";
-const SACounter = () => {
-  const weddingDate = new Date("2024-01-06T16:31:00");
+const Counter = () => {
+  const weddingDate = new Date("2024-07-28T12:47:00");
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
   // const [play] = useSound(
   //   "../SAComponents/music/Shehnai.mp3",
@@ -54,7 +54,7 @@ const SACounter = () => {
 
       {/* <AudioPlayer /> */}
       {/* <FaRegClock className="icon" /> */}
-      <h3>आतुरता लग्नाची..।।</h3>
+      <h3>Wedding Hourglass..</h3>
       <div className="timer">
         <div>
           <button className="button-40" role="button">
@@ -85,4 +85,4 @@ const SACounter = () => {
   );
 };
 
-export default SACounter;
+export default Counter;

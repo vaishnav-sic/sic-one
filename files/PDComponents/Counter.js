@@ -4,7 +4,7 @@ import backgroundImage from "../assets/images/SAImages/PD5.jpeg";
 
 // import useSound from "use-sound";
 const Counter = () => {
-  const weddingDate = new Date("2024-01-28T12:47:00");
+  const weddingDate = new Date("2024-07-28T12:47:00");
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
   // const [play] = useSound(
   //   "../SAComponents/music/Shehnai.mp3",
