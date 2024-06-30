@@ -120,7 +120,7 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container text-center">
-            <p>© सर्वहक्कस्वाधीन २०२३ स्वसंवेद्य इंटेलिजन्स सेंटर </p>
+            <p>© सर्वहक्कस्वाधीन २०२४ स्वसंवेद्य इंटेलिजन्स सेंटर </p>
           </div>
         </div>
       </footer>

@@ -10,7 +10,7 @@ const NavLinks = () => {
   };
   return (
     <ul className="main-nav__navigation-box">
-      <li>
+      {/* <li>
         <Link href="/">Home</Link>
       </li>
       <li>
@@ -29,7 +29,7 @@ const NavLinks = () => {
       </li>
       <li>
         <Link href="/solution">Solutions</Link>
-      </li>
+      </li> */}
       {/* <li>
         <ScrollLink
           activeClass="current"
