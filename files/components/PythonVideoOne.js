@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import videoBG from "../assets/images/SAImages/PD5_bg.jpg";
-import YTBlockTitle from "./YTBlockTitle";
+import BlockTitle from "./BlockTitle";
+import videoBG from "../assets/images/resources/video-bg-1-1.jpg";
 
-const YTVideo = () => {
+const PythonVideoOne = () => {
   const [open, setOpen] = useState({
     isOpen: false,
   });
@@ -14,7 +14,7 @@ const YTVideo = () => {
     });
   };
   return (
-    <section className="video-one1">
+    <section className="video-one">
       <div
         id="going"
         className="container-fluid"
@@ -22,16 +22,16 @@ const YTVideo = () => {
         <div
           className="video-one__content wow fadeInLeft"
           data-wow-duration="1500ms">
-          <YTBlockTitle
+          <BlockTitle
             textAlign="left"
-            paraText="Wedding Youtube Video"
-            titleText={`Watch \n Prewedding Teaser`}
+            paraText="Python Tutorial"
+            titleText={`Revolution in \n Test Automation`}
           />
         </div>
         <ModalVideo
           channel="youtube"
           isOpen={open.isOpen}
-          videoId="t5hbUPVJga0"
+          videoId="AxggwtFhVIM"
           onClose={() => setOpen({ isOpen: false })}
         />
         <a href="#" onClick={openModal} className="video-one__btn video-popup">
@@ -41,4 +41,4 @@ const YTVideo = () => {
     </section>
   );
 };
-export default YTVideo;
+export default PythonVideoOne;
