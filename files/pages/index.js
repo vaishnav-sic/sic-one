@@ -18,6 +18,7 @@ import AppScreen from "../components/AppScreen";
 import FAQ from "../components/FAQ";
 import Clients from "../components/Clients";
 import Testimonials from "../components/Testimonials";
+import FullStackSyllabus from "../components/FullStackSyllabus";
 
 const HomePage = () => (
   <div>
@@ -32,18 +33,19 @@ const HomePage = () => (
       <Banner />
       <Services />
       <CTAOne />
-      <FunFact />
+      {/* <FunFact />
       <CTATwo />
       <Pricing />
       <Testimonials />
       <Clients />
       <Team />
       <VideoOne />
-      <AppScreen />
-      <FAQ />
-      <BlogHome />
+      <AppScreen /> */}
+      {/* <FAQ /> */}
+      <FullStackSyllabus />
+      {/* <BlogHome /> */}
       <Contact />
-      <CTAThree />
+      {/* <CTAThree /> */}
       <Footer />
     </Layout>
   </div>

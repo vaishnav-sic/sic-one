@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+ 
 const AccordionItem = (props) => {
   const [status, setStatus] = useState(props.status);
   const handleClick = () => {
@@ -22,5 +22,6 @@ const AccordionItem = (props) => {
     </div>
   );
 };
-
+ 
 export default AccordionItem;
+ 
