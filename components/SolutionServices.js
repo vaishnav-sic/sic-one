@@ -19,7 +19,7 @@ const SolutionServices = () => {
                   <i className="apton-icon-computer-graphic"></i>
                 </div>
                 <h3>Dynamic Websites</h3>
-                <p>Pay 50% fees after Placement in your Dream company</p>
+                <p>Build engaging, responsive websites with ease</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const SolutionServices = () => {
                   <i className="apton-icon-development"></i>
                 </div>
                 <h3>Digital Marketing</h3>
-                <p>Multiple Real-Time projects and Hands-on Internships</p>
+                <p>Drive growth through impactful online strategies</p>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const SolutionServices = () => {
                   <i className="apton-icon-development1"></i>
                 </div>
                 <h3>Modern Graphics</h3>
-                <p>Endless Mock Interviews with Expert Guidance</p>
+                <p>Elevate your brand with sleek graphic design</p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ const SolutionServices = () => {
                   <i className="apton-icon-responsive"></i>
                 </div>
                 <h3>Printed Material</h3>
-                <p>Sharpen Your Problem-Solving Instincts!</p>
+                <p>Stand out with premium, eye-catching prints!</p>
               </div>
             </div>
           </div>
