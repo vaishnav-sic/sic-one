@@ -2,6 +2,10 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Swiper from "react-id-swiper";
 import BrandImage from "../assets/images/resources/brand-1-1.png";
+import FES from "../assets/images/resources/FES.jpg";
+import Green24 from "../assets/images/resources/Green24.png";
+import VS from "../assets/images/resources/VS.png";
+import SIE from "../assets/images/resources/SIE.png";
 
 const Clients = (props) => {
   const params = {
@@ -36,7 +40,25 @@ const Clients = (props) => {
     <section className="brand-one">
       <Container>
         <Swiper className="brand-one__carousel" {...params}>
+        <div className="item">
+            <a href="https://fortuneeduservices.com/" target="_blank" rel="noopener noreferrer">
+              <img src={FES} alt="" />
+            </a>
+          </div>
           <div className="item">
+            <a href="https://green24.in/" target="_blank" rel="noopener noreferrer">
+              <img src={Green24} alt="" />
+            </a>
+          </div>
+          <div className="item">
+            <a href="https://vidyasetu.in/" target="_blank" rel="noopener noreferrer">
+              <img src={VS} alt="" />
+            </a>
+          </div>
+          <div className="item">
+            <img src={SIE} alt="" />
+          </div>
+          {/* <div className="item">
             <img src={BrandImage} alt="" />
           </div>
           <div className="item">
@@ -62,19 +84,7 @@ const Clients = (props) => {
           </div>
           <div className="item">
             <img src={BrandImage} alt="" />
-          </div>
-          <div className="item">
-            <img src={BrandImage} alt="" />
-          </div>
-          <div className="item">
-            <img src={BrandImage} alt="" />
-          </div>
-          <div className="item">
-            <img src={BrandImage} alt="" />
-          </div>
-          <div className="item">
-            <img src={BrandImage} alt="" />
-          </div>
+          </div> */}
         </Swiper>
       </Container>
     </section>

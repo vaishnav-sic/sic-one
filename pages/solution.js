@@ -4,6 +4,7 @@ import MobileMenu from "../components/MobileMenu";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import SolutionBanner from "../components/SolutionBanner";
+import ClientTestimonials from "../components/ClientTestimonials";
 import Footer from "../components/Footer";
 import BlogHome from "../components/BlogHome";
 import CTAThree from "../components/CTAThree";
@@ -27,7 +28,7 @@ const Solution = () => (
   <div>
     <Preloader />
 
-    <Layout pageTitle="SIC | Service Page">
+    <Layout pageTitle="SIC | Solutions">
       <Header
         btnClass="main-nav__btn"
         extraClassName="site-header-one__fixed-top"
@@ -38,6 +39,8 @@ const Solution = () => (
 
       {/* <Services /> */}
       <SolutionServices />
+      <Clients />
+      {/* <ClientTestimonials /> */}
       {/* <CTAOne /> */}
       {/* <SolutionCTAOne /> */}
       {/* <FunFact /> */}
